@@ -1,0 +1,30 @@
+DROP TABLE IF EXISTS `fact_system_daily_metrics`; 
+
+CREATE TABLE `fact_system_daily_metrics` (
+  `run_date` date NOT NULL,
+  `active_students` int(11) DEFAULT NULL,
+  `active_staff` int(11) DEFAULT NULL,
+  `student_logins` int(11) DEFAULT NULL,
+  `staff_logins` int(11) DEFAULT NULL,
+  `diagnostic_test_starts_ela` int(11) DEFAULT NULL,
+  `diagnostic_test_starts_math` int(11) DEFAULT NULL,
+  `diagnostic_test_completions_ela` int(11) DEFAULT NULL,
+  `diagnostic_test_completions_math` int(11) DEFAULT NULL,
+  `gm_test_starts_ela` int(11) DEFAULT NULL,
+  `gm_test_starts_math` int(11) DEFAULT NULL,
+  `gm_test_completions_ela` int(11) DEFAULT NULL,
+  `gm_test_completions_math` int(11) DEFAULT NULL,
+  `ism_test_starts_ela` int(11) DEFAULT NULL,
+  `ism_test_starts_math` int(11) DEFAULT NULL,
+  `ism_test_completions_ela` int(11) DEFAULT NULL,
+  `ism_test_completions_math` int(11) DEFAULT NULL,
+  `lesson_starts_ela` int(11) DEFAULT NULL,
+  `lesson_starts_math` int(11) DEFAULT NULL,
+  `lesson_completions_ela` int(11) DEFAULT NULL,
+  `lesson_completions_math` int(11) DEFAULT NULL,
+  `student_enrollments` int(11) DEFAULT NULL,
+  `staff_enrollments` int(11) DEFAULT NULL,
+  `student_additions` int(11) DEFAULT NULL,
+  `staff_additions` int(11) DEFAULT NULL,
+  PRIMARY KEY (`run_date`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;

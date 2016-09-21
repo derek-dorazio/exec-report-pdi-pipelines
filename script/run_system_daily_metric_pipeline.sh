@@ -1,0 +1,1 @@
+/Users/ddorazio/dev/tools/data-integration/pan.sh -file="/Users/ddorazio/dev/projects/dw-kpi-pipelines/pdi/system-daily-kpi.ktr" -param:day-offset="-34" -param:schema-name="pikachu_skynet" -level=Detailed -log="/Users/ddorazio/dev/projects/dw-kpi-pipelines/log/system-daily-kpi.log"

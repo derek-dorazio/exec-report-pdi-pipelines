@@ -1,0 +1,1591 @@
+2016/05/03 11:09:51 - Pan - Logging is at level : Detailed
+2016/05/03 11:09:51 - Pan - Start of run.
+2016/05/03 11:09:51 - Pan - Loading transformation from XML file [Users/ddorazio/dev/projects/dw-kpi-pipelines/pdi/system-daily-kpi.ktr]
+2016/05/03 11:16:39 - Pan - Logging is at level : Detailed
+2016/05/03 11:16:39 - Pan - Start of run.
+2016/05/03 11:16:40 - Pan - Loading transformation from XML file [/Users/ddorazio/dev/projects/dw-kpi-pipelines/pdi/system-daily-kpi.ktr]
+2016/05/03 11:16:40 - system-daily-kpi - Dispatching started for transformation [system-daily-kpi]
+2016/05/03 11:16:40 - system-daily-kpi - Nr of arguments detected:0 
+2016/05/03 11:16:40 - system-daily-kpi - This is not a replay transformation
+2016/05/03 11:16:40 - system-daily-kpi - I found 20 different steps to launch.
+2016/05/03 11:16:40 - system-daily-kpi - Allocating rowsets...
+2016/05/03 11:16:40 - system-daily-kpi -  Allocating rowsets for step 0 --> Redshift-diagnostic-test-starts-ela
+2016/05/03 11:16:40 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:16:40 - system-daily-kpi - Transformation allocated new rowset [Redshift-diagnostic-test-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - system-daily-kpi -  Allocated 1 rowsets for step 0 --> Redshift-diagnostic-test-starts-ela  
+2016/05/03 11:16:40 - system-daily-kpi -  Allocating rowsets for step 1 --> Multiway Merge Join
+2016/05/03 11:16:40 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:16:40 - system-daily-kpi - Transformation allocated new rowset [Multiway Merge Join.0 - Insert / Update.0]
+2016/05/03 11:16:40 - system-daily-kpi -  Allocated 2 rowsets for step 1 --> Multiway Merge Join  
+2016/05/03 11:16:40 - system-daily-kpi -  Allocating rowsets for step 2 --> Redshift-diagnostic-gm-starts-math
+2016/05/03 11:16:40 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:16:40 - system-daily-kpi - Transformation allocated new rowset [Redshift-diagnostic-gm-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - system-daily-kpi -  Allocated 3 rowsets for step 2 --> Redshift-diagnostic-gm-starts-math  
+2016/05/03 11:16:40 - system-daily-kpi -  Allocating rowsets for step 3 --> Redshift-diagnostic-gm-starts-ela
+2016/05/03 11:16:40 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:16:40 - system-daily-kpi - Transformation allocated new rowset [Redshift-diagnostic-gm-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - system-daily-kpi -  Allocated 4 rowsets for step 3 --> Redshift-diagnostic-gm-starts-ela  
+2016/05/03 11:16:40 - system-daily-kpi -  Allocating rowsets for step 4 --> Insert / Update
+2016/05/03 11:16:40 - system-daily-kpi -  Allocated 4 rowsets for step 4 --> Insert / Update  
+2016/05/03 11:16:40 - system-daily-kpi -  Allocating rowsets for step 5 --> Redshift-lesson-starts-ela
+2016/05/03 11:16:40 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:16:40 - system-daily-kpi - Transformation allocated new rowset [Redshift-lesson-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - system-daily-kpi -  Allocated 5 rowsets for step 5 --> Redshift-lesson-starts-ela  
+2016/05/03 11:16:40 - system-daily-kpi -  Allocating rowsets for step 6 --> Redshift-lesson-starts-math
+2016/05/03 11:16:40 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:16:40 - system-daily-kpi - Transformation allocated new rowset [Redshift-lesson-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - system-daily-kpi -  Allocated 6 rowsets for step 6 --> Redshift-lesson-starts-math  
+2016/05/03 11:16:40 - system-daily-kpi -  Allocating rowsets for step 7 --> Redshift-diagnostic-test-starts-math
+2016/05/03 11:16:40 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:16:40 - system-daily-kpi - Transformation allocated new rowset [Redshift-diagnostic-test-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - system-daily-kpi -  Allocated 7 rowsets for step 7 --> Redshift-diagnostic-test-starts-math  
+2016/05/03 11:16:40 - system-daily-kpi -  Allocating rowsets for step 8 --> Redshift-diagnostic-test-completions-ela
+2016/05/03 11:16:40 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:16:40 - system-daily-kpi - Transformation allocated new rowset [Redshift-diagnostic-test-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - system-daily-kpi -  Allocated 8 rowsets for step 8 --> Redshift-diagnostic-test-completions-ela  
+2016/05/03 11:16:40 - system-daily-kpi -  Allocating rowsets for step 9 --> Redshift-diagnostic-test-completions-math
+2016/05/03 11:16:40 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:16:40 - system-daily-kpi - Transformation allocated new rowset [Redshift-diagnostic-test-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - system-daily-kpi -  Allocated 9 rowsets for step 9 --> Redshift-diagnostic-test-completions-math  
+2016/05/03 11:16:40 - system-daily-kpi -  Allocating rowsets for step 10 --> Redshift-diagnostic-gm-completions-ela
+2016/05/03 11:16:40 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:16:40 - system-daily-kpi - Transformation allocated new rowset [Redshift-diagnostic-gm-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - system-daily-kpi -  Allocated 10 rowsets for step 10 --> Redshift-diagnostic-gm-completions-ela  
+2016/05/03 11:16:40 - system-daily-kpi -  Allocating rowsets for step 11 --> Redshift-diagnostic-gm-completions-math
+2016/05/03 11:16:40 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:16:40 - system-daily-kpi - Transformation allocated new rowset [Redshift-diagnostic-gm-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - system-daily-kpi -  Allocated 11 rowsets for step 11 --> Redshift-diagnostic-gm-completions-math  
+2016/05/03 11:16:40 - system-daily-kpi -  Allocating rowsets for step 12 --> Redshift-lesson-completions-ela
+2016/05/03 11:16:40 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:16:40 - system-daily-kpi - Transformation allocated new rowset [Redshift-lesson-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - system-daily-kpi -  Allocated 12 rowsets for step 12 --> Redshift-lesson-completions-ela  
+2016/05/03 11:16:40 - system-daily-kpi -  Allocating rowsets for step 13 --> Redshift-lesson-completions-math
+2016/05/03 11:16:40 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:16:40 - system-daily-kpi - Transformation allocated new rowset [Redshift-lesson-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - system-daily-kpi -  Allocated 13 rowsets for step 13 --> Redshift-lesson-completions-math  
+2016/05/03 11:16:40 - system-daily-kpi -  Allocating rowsets for step 14 --> Redshift-student-enrollments
+2016/05/03 11:16:40 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:16:40 - system-daily-kpi - Transformation allocated new rowset [Redshift-student-enrollments.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - system-daily-kpi -  Allocated 14 rowsets for step 14 --> Redshift-student-enrollments  
+2016/05/03 11:16:40 - system-daily-kpi -  Allocating rowsets for step 15 --> Redshift-staff-enrollments
+2016/05/03 11:16:40 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:16:40 - system-daily-kpi - Transformation allocated new rowset [Redshift-staff-enrollments.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - system-daily-kpi -  Allocated 15 rowsets for step 15 --> Redshift-staff-enrollments  
+2016/05/03 11:16:40 - system-daily-kpi -  Allocating rowsets for step 16 --> Redshift-ism-test-starts-ela
+2016/05/03 11:16:40 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:16:40 - system-daily-kpi - Transformation allocated new rowset [Redshift-ism-test-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - system-daily-kpi -  Allocated 16 rowsets for step 16 --> Redshift-ism-test-starts-ela  
+2016/05/03 11:16:40 - system-daily-kpi -  Allocating rowsets for step 17 --> Redshift-ism-test-starts-math
+2016/05/03 11:16:40 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:16:40 - system-daily-kpi - Transformation allocated new rowset [Redshift-ism-test-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - system-daily-kpi -  Allocated 17 rowsets for step 17 --> Redshift-ism-test-starts-math  
+2016/05/03 11:16:40 - system-daily-kpi -  Allocating rowsets for step 18 --> Redshift-ism-test-completions-ela
+2016/05/03 11:16:40 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:16:40 - system-daily-kpi - Transformation allocated new rowset [Redshift-ism-test-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - system-daily-kpi -  Allocated 18 rowsets for step 18 --> Redshift-ism-test-completions-ela  
+2016/05/03 11:16:40 - system-daily-kpi -  Allocating rowsets for step 19 --> Redshift-ism-test-completions-math
+2016/05/03 11:16:40 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:16:40 - system-daily-kpi - Transformation allocated new rowset [Redshift-ism-test-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - system-daily-kpi -  Allocated 19 rowsets for step 19 --> Redshift-ism-test-completions-math  
+2016/05/03 11:16:40 - system-daily-kpi - Allocating Steps & StepData...
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation is about to allocate step [Redshift-diagnostic-test-starts-ela] of type [TableInput]
+2016/05/03 11:16:40 - Redshift-diagnostic-test-starts-ela.0 - distribution activated
+2016/05/03 11:16:40 - Redshift-diagnostic-test-starts-ela.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:16:40 - Redshift-diagnostic-test-starts-ela.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:16:40 - Redshift-diagnostic-test-starts-ela.0 - output rel. is  1:1
+2016/05/03 11:16:40 - Redshift-diagnostic-test-starts-ela.0 - Found output rowset [Redshift-diagnostic-test-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Redshift-diagnostic-test-starts-ela.0 - Finished dispatching
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-diagnostic-test-starts-ela].0
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation is about to allocate step [Multiway Merge Join] of type [MultiwayMergeJoin]
+2016/05/03 11:16:40 - Multiway Merge Join.0 - distribution de-activated
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Step info: nrinput=18 nroutput=1
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #0 --> Redshift-diagnostic-test-starts-ela
+2016/05/03 11:16:40 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Found input rowset [Redshift-diagnostic-test-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #1 --> Redshift-diagnostic-gm-starts-math
+2016/05/03 11:16:40 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Found input rowset [Redshift-diagnostic-gm-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #2 --> Redshift-diagnostic-gm-starts-ela
+2016/05/03 11:16:40 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Found input rowset [Redshift-diagnostic-gm-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #3 --> Redshift-lesson-starts-ela
+2016/05/03 11:16:40 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Found input rowset [Redshift-lesson-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #4 --> Redshift-lesson-starts-math
+2016/05/03 11:16:40 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Found input rowset [Redshift-lesson-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #5 --> Redshift-diagnostic-test-starts-math
+2016/05/03 11:16:40 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Found input rowset [Redshift-diagnostic-test-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #6 --> Redshift-diagnostic-test-completions-ela
+2016/05/03 11:16:40 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Found input rowset [Redshift-diagnostic-test-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #7 --> Redshift-diagnostic-test-completions-math
+2016/05/03 11:16:40 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Found input rowset [Redshift-diagnostic-test-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #8 --> Redshift-diagnostic-gm-completions-ela
+2016/05/03 11:16:40 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Found input rowset [Redshift-diagnostic-gm-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #9 --> Redshift-diagnostic-gm-completions-math
+2016/05/03 11:16:40 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Found input rowset [Redshift-diagnostic-gm-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #10 --> Redshift-lesson-completions-ela
+2016/05/03 11:16:40 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Found input rowset [Redshift-lesson-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #11 --> Redshift-lesson-completions-math
+2016/05/03 11:16:40 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Found input rowset [Redshift-lesson-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #12 --> Redshift-student-enrollments
+2016/05/03 11:16:40 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Found input rowset [Redshift-student-enrollments.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #13 --> Redshift-staff-enrollments
+2016/05/03 11:16:40 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Found input rowset [Redshift-staff-enrollments.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #14 --> Redshift-ism-test-starts-ela
+2016/05/03 11:16:40 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Found input rowset [Redshift-ism-test-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #15 --> Redshift-ism-test-starts-math
+2016/05/03 11:16:40 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Found input rowset [Redshift-ism-test-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #16 --> Redshift-ism-test-completions-ela
+2016/05/03 11:16:40 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Found input rowset [Redshift-ism-test-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #17 --> Redshift-ism-test-completions-math
+2016/05/03 11:16:40 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Found input rowset [Redshift-ism-test-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Multiway Merge Join.0 - output rel. is  1:1
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Found output rowset [Multiway Merge Join.0 - Insert / Update.0]
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Finished dispatching
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation has allocated a new step: [Multiway Merge Join].0
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation is about to allocate step [Redshift-diagnostic-gm-starts-math] of type [TableInput]
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-starts-math.0 - distribution activated
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-starts-math.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-starts-math.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-starts-math.0 - output rel. is  1:1
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-starts-math.0 - Found output rowset [Redshift-diagnostic-gm-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-starts-math.0 - Finished dispatching
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-diagnostic-gm-starts-math].0
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation is about to allocate step [Redshift-diagnostic-gm-starts-ela] of type [TableInput]
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-starts-ela.0 - distribution activated
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-starts-ela.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-starts-ela.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-starts-ela.0 - output rel. is  1:1
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-starts-ela.0 - Found output rowset [Redshift-diagnostic-gm-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-starts-ela.0 - Finished dispatching
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-diagnostic-gm-starts-ela].0
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation is about to allocate step [Insert / Update] of type [InsertUpdate]
+2016/05/03 11:16:40 - Insert / Update.0 - distribution activated
+2016/05/03 11:16:40 - Insert / Update.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:16:40 - Insert / Update.0 - Step info: nrinput=1 nroutput=0
+2016/05/03 11:16:40 - Insert / Update.0 - Got previous step from [Insert / Update] #0 --> Multiway Merge Join
+2016/05/03 11:16:40 - Insert / Update.0 - input rel is 1:1
+2016/05/03 11:16:40 - Insert / Update.0 - Found input rowset [Multiway Merge Join.0 - Insert / Update.0]
+2016/05/03 11:16:40 - Insert / Update.0 - Finished dispatching
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation has allocated a new step: [Insert / Update].0
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation is about to allocate step [Redshift-lesson-starts-ela] of type [TableInput]
+2016/05/03 11:16:40 - Redshift-lesson-starts-ela.0 - distribution activated
+2016/05/03 11:16:40 - Redshift-lesson-starts-ela.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:16:40 - Redshift-lesson-starts-ela.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:16:40 - Redshift-lesson-starts-ela.0 - output rel. is  1:1
+2016/05/03 11:16:40 - Redshift-lesson-starts-ela.0 - Found output rowset [Redshift-lesson-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Redshift-lesson-starts-ela.0 - Finished dispatching
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-lesson-starts-ela].0
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation is about to allocate step [Redshift-lesson-starts-math] of type [TableInput]
+2016/05/03 11:16:40 - Redshift-lesson-starts-math.0 - distribution activated
+2016/05/03 11:16:40 - Redshift-lesson-starts-math.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:16:40 - Redshift-lesson-starts-math.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:16:40 - Redshift-lesson-starts-math.0 - output rel. is  1:1
+2016/05/03 11:16:40 - Redshift-lesson-starts-math.0 - Found output rowset [Redshift-lesson-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Redshift-lesson-starts-math.0 - Finished dispatching
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-lesson-starts-math].0
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation is about to allocate step [Redshift-diagnostic-test-starts-math] of type [TableInput]
+2016/05/03 11:16:40 - Redshift-diagnostic-test-starts-math.0 - distribution de-activated
+2016/05/03 11:16:40 - Redshift-diagnostic-test-starts-math.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:16:40 - Redshift-diagnostic-test-starts-math.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:16:40 - Redshift-diagnostic-test-starts-math.0 - output rel. is  1:1
+2016/05/03 11:16:40 - Redshift-diagnostic-test-starts-math.0 - Found output rowset [Redshift-diagnostic-test-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Redshift-diagnostic-test-starts-math.0 - Finished dispatching
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-diagnostic-test-starts-math].0
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation is about to allocate step [Redshift-diagnostic-test-completions-ela] of type [TableInput]
+2016/05/03 11:16:40 - Redshift-diagnostic-test-completions-ela.0 - distribution activated
+2016/05/03 11:16:40 - Redshift-diagnostic-test-completions-ela.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:16:40 - Redshift-diagnostic-test-completions-ela.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:16:40 - Redshift-diagnostic-test-completions-ela.0 - output rel. is  1:1
+2016/05/03 11:16:40 - Redshift-diagnostic-test-completions-ela.0 - Found output rowset [Redshift-diagnostic-test-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Redshift-diagnostic-test-completions-ela.0 - Finished dispatching
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-diagnostic-test-completions-ela].0
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation is about to allocate step [Redshift-diagnostic-test-completions-math] of type [TableInput]
+2016/05/03 11:16:40 - Redshift-diagnostic-test-completions-math.0 - distribution de-activated
+2016/05/03 11:16:40 - Redshift-diagnostic-test-completions-math.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:16:40 - Redshift-diagnostic-test-completions-math.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:16:40 - Redshift-diagnostic-test-completions-math.0 - output rel. is  1:1
+2016/05/03 11:16:40 - Redshift-diagnostic-test-completions-math.0 - Found output rowset [Redshift-diagnostic-test-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Redshift-diagnostic-test-completions-math.0 - Finished dispatching
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-diagnostic-test-completions-math].0
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation is about to allocate step [Redshift-diagnostic-gm-completions-ela] of type [TableInput]
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-completions-ela.0 - distribution activated
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-completions-ela.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-completions-ela.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-completions-ela.0 - output rel. is  1:1
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-completions-ela.0 - Found output rowset [Redshift-diagnostic-gm-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-completions-ela.0 - Finished dispatching
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-diagnostic-gm-completions-ela].0
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation is about to allocate step [Redshift-diagnostic-gm-completions-math] of type [TableInput]
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-completions-math.0 - distribution activated
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-completions-math.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-completions-math.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-completions-math.0 - output rel. is  1:1
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-completions-math.0 - Found output rowset [Redshift-diagnostic-gm-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-completions-math.0 - Finished dispatching
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-diagnostic-gm-completions-math].0
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation is about to allocate step [Redshift-lesson-completions-ela] of type [TableInput]
+2016/05/03 11:16:40 - Redshift-lesson-completions-ela.0 - distribution activated
+2016/05/03 11:16:40 - Redshift-lesson-completions-ela.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:16:40 - Redshift-lesson-completions-ela.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:16:40 - Redshift-lesson-completions-ela.0 - output rel. is  1:1
+2016/05/03 11:16:40 - Redshift-lesson-completions-ela.0 - Found output rowset [Redshift-lesson-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Redshift-lesson-completions-ela.0 - Finished dispatching
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-lesson-completions-ela].0
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation is about to allocate step [Redshift-lesson-completions-math] of type [TableInput]
+2016/05/03 11:16:40 - Redshift-lesson-completions-math.0 - distribution activated
+2016/05/03 11:16:40 - Redshift-lesson-completions-math.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:16:40 - Redshift-lesson-completions-math.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:16:40 - Redshift-lesson-completions-math.0 - output rel. is  1:1
+2016/05/03 11:16:40 - Redshift-lesson-completions-math.0 - Found output rowset [Redshift-lesson-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Redshift-lesson-completions-math.0 - Finished dispatching
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-lesson-completions-math].0
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation is about to allocate step [Redshift-student-enrollments] of type [TableInput]
+2016/05/03 11:16:40 - Redshift-student-enrollments.0 - distribution activated
+2016/05/03 11:16:40 - Redshift-student-enrollments.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:16:40 - Redshift-student-enrollments.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:16:40 - Redshift-student-enrollments.0 - output rel. is  1:1
+2016/05/03 11:16:40 - Redshift-student-enrollments.0 - Found output rowset [Redshift-student-enrollments.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Redshift-student-enrollments.0 - Finished dispatching
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-student-enrollments].0
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation is about to allocate step [Redshift-staff-enrollments] of type [TableInput]
+2016/05/03 11:16:40 - Redshift-staff-enrollments.0 - distribution activated
+2016/05/03 11:16:40 - Redshift-staff-enrollments.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:16:40 - Redshift-staff-enrollments.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:16:40 - Redshift-staff-enrollments.0 - output rel. is  1:1
+2016/05/03 11:16:40 - Redshift-staff-enrollments.0 - Found output rowset [Redshift-staff-enrollments.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Redshift-staff-enrollments.0 - Finished dispatching
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-staff-enrollments].0
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation is about to allocate step [Redshift-ism-test-starts-ela] of type [TableInput]
+2016/05/03 11:16:40 - Redshift-ism-test-starts-ela.0 - distribution activated
+2016/05/03 11:16:40 - Redshift-ism-test-starts-ela.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:16:40 - Redshift-ism-test-starts-ela.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:16:40 - Redshift-ism-test-starts-ela.0 - output rel. is  1:1
+2016/05/03 11:16:40 - Redshift-ism-test-starts-ela.0 - Found output rowset [Redshift-ism-test-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Redshift-ism-test-starts-ela.0 - Finished dispatching
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-ism-test-starts-ela].0
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation is about to allocate step [Redshift-ism-test-starts-math] of type [TableInput]
+2016/05/03 11:16:40 - Redshift-ism-test-starts-math.0 - distribution activated
+2016/05/03 11:16:40 - Redshift-ism-test-starts-math.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:16:40 - Redshift-ism-test-starts-math.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:16:40 - Redshift-ism-test-starts-math.0 - output rel. is  1:1
+2016/05/03 11:16:40 - Redshift-ism-test-starts-math.0 - Found output rowset [Redshift-ism-test-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Redshift-ism-test-starts-math.0 - Finished dispatching
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-ism-test-starts-math].0
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation is about to allocate step [Redshift-ism-test-completions-ela] of type [TableInput]
+2016/05/03 11:16:40 - Redshift-ism-test-completions-ela.0 - distribution activated
+2016/05/03 11:16:40 - Redshift-ism-test-completions-ela.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:16:40 - Redshift-ism-test-completions-ela.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:16:40 - Redshift-ism-test-completions-ela.0 - output rel. is  1:1
+2016/05/03 11:16:40 - Redshift-ism-test-completions-ela.0 - Found output rowset [Redshift-ism-test-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Redshift-ism-test-completions-ela.0 - Finished dispatching
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-ism-test-completions-ela].0
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation is about to allocate step [Redshift-ism-test-completions-math] of type [TableInput]
+2016/05/03 11:16:40 - Redshift-ism-test-completions-math.0 - distribution activated
+2016/05/03 11:16:40 - Redshift-ism-test-completions-math.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:16:40 - Redshift-ism-test-completions-math.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:16:40 - Redshift-ism-test-completions-math.0 - output rel. is  1:1
+2016/05/03 11:16:40 - Redshift-ism-test-completions-math.0 - Found output rowset [Redshift-ism-test-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 11:16:40 - Redshift-ism-test-completions-math.0 - Finished dispatching
+2016/05/03 11:16:40 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-ism-test-completions-math].0
+2016/05/03 11:16:40 - system-daily-kpi - This transformation can be replayed with replay date: 2016/05/03 11:16:40
+2016/05/03 11:16:40 - system-daily-kpi - Initialising 20 steps...
+2016/05/03 11:16:40 - Redshift-diagnostic-test-starts-ela.0 - Released server socket on port 0
+2016/05/03 11:16:40 - Multiway Merge Join.0 - Released server socket on port 0
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-starts-math.0 - Released server socket on port 0
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-starts-ela.0 - Released server socket on port 0
+2016/05/03 11:16:40 - Redshift-lesson-starts-ela.0 - Released server socket on port 0
+2016/05/03 11:16:40 - Insert / Update.0 - Released server socket on port 0
+2016/05/03 11:16:40 - Redshift-diagnostic-test-starts-math.0 - Released server socket on port 0
+2016/05/03 11:16:40 - Redshift-lesson-starts-math.0 - Released server socket on port 0
+2016/05/03 11:16:40 - Redshift-diagnostic-test-completions-ela.0 - Released server socket on port 0
+2016/05/03 11:16:40 - Redshift-diagnostic-test-completions-math.0 - Released server socket on port 0
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-completions-ela.0 - Released server socket on port 0
+2016/05/03 11:16:40 - Redshift-diagnostic-gm-completions-math.0 - Released server socket on port 0
+2016/05/03 11:16:40 - Redshift-lesson-completions-ela.0 - Released server socket on port 0
+2016/05/03 11:16:40 - Redshift-lesson-completions-math.0 - Released server socket on port 0
+2016/05/03 11:16:40 - Redshift-student-enrollments.0 - Released server socket on port 0
+2016/05/03 11:16:40 - Redshift-staff-enrollments.0 - Released server socket on port 0
+2016/05/03 11:16:40 - Redshift-ism-test-starts-math.0 - Released server socket on port 0
+2016/05/03 11:16:40 - Redshift-ism-test-starts-ela.0 - Released server socket on port 0
+2016/05/03 11:16:40 - Redshift-ism-test-completions-ela.0 - Released server socket on port 0
+2016/05/03 11:16:40 - Redshift-ism-test-completions-math.0 - Released server socket on port 0
+2016/05/03 11:16:40 - Redshift - pikachu - New database connection defined
+2016/05/03 11:16:40 - Redshift - pikachu - New database connection defined
+2016/05/03 11:16:40 - Redshift - pikachu - New database connection defined
+2016/05/03 11:16:40 - Redshift - pikachu - New database connection defined
+2016/05/03 11:16:40 - Redshift - pikachu - New database connection defined
+2016/05/03 11:16:40 - Redshift - pikachu - New database connection defined
+2016/05/03 11:16:40 - Redshift - pikachu - New database connection defined
+2016/05/03 11:16:40 - Redshift - pikachu - New database connection defined
+2016/05/03 11:16:40 - Redshift - pikachu - New database connection defined
+2016/05/03 11:16:40 - Redshift - pikachu - New database connection defined
+2016/05/03 11:16:40 - Redshift - pikachu - New database connection defined
+2016/05/03 11:16:40 - Redshift - pikachu - New database connection defined
+2016/05/03 11:16:40 - Redshift - pikachu - New database connection defined
+2016/05/03 11:16:40 - Redshift - pikachu - New database connection defined
+2016/05/03 11:16:40 - Redshift - pikachu - New database connection defined
+2016/05/03 11:16:40 - Redshift - pikachu - New database connection defined
+2016/05/03 11:16:40 - Redshift - pikachu - New database connection defined
+2016/05/03 11:16:40 - MySQL - localhost - New database connection defined
+2016/05/03 11:16:40 - Redshift - pikachu - New database connection defined
+2016/05/03 11:16:41 - Redshift-lesson-completions-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:16:41 - Redshift-lesson-completions-math.0 - Error occurred while trying to connect to the database
+2016/05/03 11:16:41 - Redshift-lesson-completions-math.0 - 
+2016/05/03 11:16:41 - Redshift-lesson-completions-math.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:16:41 - Redshift-lesson-completions-math.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:16:41 - Redshift-ism-test-starts-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:16:41 - Redshift-ism-test-starts-math.0 - Error occurred while trying to connect to the database
+2016/05/03 11:16:41 - Redshift-ism-test-starts-math.0 - 
+2016/05/03 11:16:41 - Redshift-ism-test-starts-math.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:16:41 - Redshift-ism-test-starts-math.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:16:41 - Redshift-lesson-completions-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:16:41 - Redshift-lesson-completions-ela.0 - Error occurred while trying to connect to the database
+2016/05/03 11:16:41 - Redshift-lesson-completions-ela.0 - 
+2016/05/03 11:16:41 - Redshift-lesson-completions-ela.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:16:41 - Redshift-lesson-completions-ela.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-completions-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-completions-math.0 - Error occurred while trying to connect to the database
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-completions-math.0 - 
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-completions-math.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-completions-math.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:16:41 - Redshift-diagnostic-test-completions-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:16:41 - Redshift-diagnostic-test-completions-ela.0 - Error occurred while trying to connect to the database
+2016/05/03 11:16:41 - Redshift-diagnostic-test-completions-ela.0 - 
+2016/05/03 11:16:41 - Redshift-diagnostic-test-completions-ela.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:16:41 - Redshift-diagnostic-test-completions-ela.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:16:41 - Redshift-diagnostic-test-starts-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:16:41 - Redshift-diagnostic-test-starts-ela.0 - Error occurred while trying to connect to the database
+2016/05/03 11:16:41 - Redshift-diagnostic-test-starts-ela.0 - 
+2016/05/03 11:16:41 - Redshift-diagnostic-test-starts-ela.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:16:41 - Redshift-diagnostic-test-starts-ela.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:16:41 - Redshift-staff-enrollments.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:16:41 - Redshift-staff-enrollments.0 - Error occurred while trying to connect to the database
+2016/05/03 11:16:41 - Redshift-staff-enrollments.0 - 
+2016/05/03 11:16:41 - Redshift-staff-enrollments.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:16:41 - Redshift-staff-enrollments.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-starts-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-starts-math.0 - Error occurred while trying to connect to the database
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-starts-math.0 - 
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-starts-math.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-starts-math.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:16:41 - Redshift-ism-test-completions-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:16:41 - Redshift-ism-test-completions-math.0 - Error occurred while trying to connect to the database
+2016/05/03 11:16:41 - Redshift-ism-test-completions-math.0 - 
+2016/05/03 11:16:41 - Redshift-ism-test-completions-math.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:16:41 - Redshift-ism-test-completions-math.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-starts-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-starts-ela.0 - Error occurred while trying to connect to the database
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-starts-ela.0 - 
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-starts-ela.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-starts-ela.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:16:41 - Redshift-lesson-starts-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:16:41 - Redshift-lesson-starts-math.0 - Error occurred while trying to connect to the database
+2016/05/03 11:16:41 - Redshift-lesson-starts-math.0 - 
+2016/05/03 11:16:41 - Redshift-lesson-starts-math.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:16:41 - Redshift-lesson-starts-math.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:16:41 - Redshift-diagnostic-test-completions-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:16:41 - Redshift-diagnostic-test-completions-math.0 - Error occurred while trying to connect to the database
+2016/05/03 11:16:41 - Redshift-diagnostic-test-completions-math.0 - 
+2016/05/03 11:16:41 - Redshift-diagnostic-test-completions-math.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:16:41 - Redshift-diagnostic-test-completions-math.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:16:41 - Redshift-diagnostic-test-starts-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:16:41 - Redshift-diagnostic-test-starts-math.0 - Error occurred while trying to connect to the database
+2016/05/03 11:16:41 - Redshift-diagnostic-test-starts-math.0 - 
+2016/05/03 11:16:41 - Redshift-diagnostic-test-starts-math.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:16:41 - Redshift-diagnostic-test-starts-math.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:16:41 - Redshift-student-enrollments.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:16:41 - Redshift-student-enrollments.0 - Error occurred while trying to connect to the database
+2016/05/03 11:16:41 - Redshift-student-enrollments.0 - 
+2016/05/03 11:16:41 - Redshift-student-enrollments.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:16:41 - Redshift-student-enrollments.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:16:41 - Redshift-lesson-starts-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:16:41 - Redshift-lesson-starts-ela.0 - Error occurred while trying to connect to the database
+2016/05/03 11:16:41 - Redshift-lesson-starts-ela.0 - 
+2016/05/03 11:16:41 - Redshift-lesson-starts-ela.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:16:41 - Redshift-lesson-starts-ela.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:16:41 - Redshift-ism-test-completions-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:16:41 - Redshift-ism-test-completions-ela.0 - Error occurred while trying to connect to the database
+2016/05/03 11:16:41 - Redshift-ism-test-completions-ela.0 - 
+2016/05/03 11:16:41 - Redshift-ism-test-completions-ela.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:16:41 - Redshift-ism-test-completions-ela.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-completions-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-completions-ela.0 - Error occurred while trying to connect to the database
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-completions-ela.0 - 
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-completions-ela.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-completions-ela.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:16:41 - Redshift-ism-test-starts-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:16:41 - Redshift-ism-test-starts-ela.0 - Error occurred while trying to connect to the database
+2016/05/03 11:16:41 - Redshift-ism-test-starts-ela.0 - 
+2016/05/03 11:16:41 - Redshift-ism-test-starts-ela.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:16:41 - Redshift-ism-test-starts-ela.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:16:41 - Redshift-lesson-completions-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-lesson-completions-ela]
+2016/05/03 11:16:41 - Redshift-ism-test-starts-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-ism-test-starts-ela]
+2016/05/03 11:16:41 - Redshift-diagnostic-test-completions-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-diagnostic-test-completions-math]
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-starts-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-diagnostic-gm-starts-math]
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-completions-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-diagnostic-gm-completions-ela]
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-starts-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-diagnostic-gm-starts-ela]
+2016/05/03 11:16:41 - Redshift-lesson-starts-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-lesson-starts-ela]
+2016/05/03 11:16:41 - Redshift-ism-test-completions-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-ism-test-completions-ela]
+2016/05/03 11:16:41 - Redshift-student-enrollments.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-student-enrollments]
+2016/05/03 11:16:41 - Redshift-diagnostic-test-completions-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-diagnostic-test-completions-ela]
+2016/05/03 11:16:41 - Redshift-diagnostic-test-starts-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-diagnostic-test-starts-math]
+2016/05/03 11:16:41 - Redshift-lesson-starts-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-lesson-starts-math]
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-completions-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-diagnostic-gm-completions-math]
+2016/05/03 11:16:41 - Redshift-lesson-completions-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-lesson-completions-math]
+2016/05/03 11:16:41 - Redshift-diagnostic-test-starts-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-diagnostic-test-starts-ela]
+2016/05/03 11:16:41 - Redshift-staff-enrollments.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-staff-enrollments]
+2016/05/03 11:16:41 - Redshift-ism-test-starts-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-ism-test-starts-math]
+2016/05/03 11:16:41 - Redshift-ism-test-completions-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-ism-test-completions-math]
+2016/05/03 11:16:41 - MySQL - localhost - Auto commit off
+2016/05/03 11:16:41 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-diagnostic-test-starts-ela.0] failed to initialize!
+2016/05/03 11:16:41 - system-daily-kpi - Step [Multiway Merge Join.0] initialized flawlessly.
+2016/05/03 11:16:41 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-diagnostic-gm-starts-math.0] failed to initialize!
+2016/05/03 11:16:41 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-diagnostic-gm-starts-ela.0] failed to initialize!
+2016/05/03 11:16:41 - system-daily-kpi - Step [Insert / Update.0] initialized flawlessly.
+2016/05/03 11:16:41 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-lesson-starts-ela.0] failed to initialize!
+2016/05/03 11:16:41 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-lesson-starts-math.0] failed to initialize!
+2016/05/03 11:16:41 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-diagnostic-test-starts-math.0] failed to initialize!
+2016/05/03 11:16:41 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-diagnostic-test-completions-ela.0] failed to initialize!
+2016/05/03 11:16:41 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-diagnostic-test-completions-math.0] failed to initialize!
+2016/05/03 11:16:41 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-diagnostic-gm-completions-ela.0] failed to initialize!
+2016/05/03 11:16:41 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-diagnostic-gm-completions-math.0] failed to initialize!
+2016/05/03 11:16:41 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-lesson-completions-ela.0] failed to initialize!
+2016/05/03 11:16:41 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-lesson-completions-math.0] failed to initialize!
+2016/05/03 11:16:41 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-student-enrollments.0] failed to initialize!
+2016/05/03 11:16:41 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-staff-enrollments.0] failed to initialize!
+2016/05/03 11:16:41 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-ism-test-starts-ela.0] failed to initialize!
+2016/05/03 11:16:41 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-ism-test-starts-math.0] failed to initialize!
+2016/05/03 11:16:41 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-ism-test-completions-ela.0] failed to initialize!
+2016/05/03 11:16:41 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-ism-test-completions-math.0] failed to initialize!
+2016/05/03 11:16:41 - Redshift-diagnostic-test-starts-ela.0 - Finished reading query, closing connection.
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-starts-math.0 - Finished reading query, closing connection.
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-starts-ela.0 - Finished reading query, closing connection.
+2016/05/03 11:16:41 - MySQL - localhost - Connection to database closed!
+2016/05/03 11:16:41 - Redshift-lesson-starts-ela.0 - Finished reading query, closing connection.
+2016/05/03 11:16:41 - Redshift-lesson-starts-math.0 - Finished reading query, closing connection.
+2016/05/03 11:16:41 - Redshift-diagnostic-test-starts-math.0 - Finished reading query, closing connection.
+2016/05/03 11:16:41 - Redshift-diagnostic-test-completions-ela.0 - Finished reading query, closing connection.
+2016/05/03 11:16:41 - Redshift-diagnostic-test-completions-math.0 - Finished reading query, closing connection.
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-completions-ela.0 - Finished reading query, closing connection.
+2016/05/03 11:16:41 - Redshift-diagnostic-gm-completions-math.0 - Finished reading query, closing connection.
+2016/05/03 11:16:41 - Redshift-lesson-completions-ela.0 - Finished reading query, closing connection.
+2016/05/03 11:16:41 - Redshift-lesson-completions-math.0 - Finished reading query, closing connection.
+2016/05/03 11:16:41 - Redshift-student-enrollments.0 - Finished reading query, closing connection.
+2016/05/03 11:16:41 - Redshift-staff-enrollments.0 - Finished reading query, closing connection.
+2016/05/03 11:16:41 - Redshift-ism-test-starts-ela.0 - Finished reading query, closing connection.
+2016/05/03 11:16:41 - Redshift-ism-test-starts-math.0 - Finished reading query, closing connection.
+2016/05/03 11:16:41 - Redshift-ism-test-completions-ela.0 - Finished reading query, closing connection.
+2016/05/03 11:16:41 - Redshift-ism-test-completions-math.0 - Finished reading query, closing connection.
+2016/05/03 11:23:16 - Pan - Logging is at level : Detailed
+2016/05/03 11:23:16 - Pan - Start of run.
+2016/05/03 11:23:16 - Pan - Loading transformation from XML file [/Users/ddorazio/dev/projects/dw-kpi-pipelines/pdi/system-daily-kpi.ktr]
+2016/05/03 11:23:17 - system-daily-kpi - Dispatching started for transformation [system-daily-kpi]
+2016/05/03 11:23:17 - system-daily-kpi - Nr of arguments detected:0 
+2016/05/03 11:23:17 - system-daily-kpi - This is not a replay transformation
+2016/05/03 11:23:17 - system-daily-kpi - I found 20 different steps to launch.
+2016/05/03 11:23:17 - system-daily-kpi - Allocating rowsets...
+2016/05/03 11:23:17 - system-daily-kpi -  Allocating rowsets for step 0 --> Redshift-diagnostic-test-starts-ela
+2016/05/03 11:23:17 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:23:17 - system-daily-kpi - Transformation allocated new rowset [Redshift-diagnostic-test-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - system-daily-kpi -  Allocated 1 rowsets for step 0 --> Redshift-diagnostic-test-starts-ela  
+2016/05/03 11:23:17 - system-daily-kpi -  Allocating rowsets for step 1 --> Multiway Merge Join
+2016/05/03 11:23:17 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:23:17 - system-daily-kpi - Transformation allocated new rowset [Multiway Merge Join.0 - Insert / Update.0]
+2016/05/03 11:23:17 - system-daily-kpi -  Allocated 2 rowsets for step 1 --> Multiway Merge Join  
+2016/05/03 11:23:17 - system-daily-kpi -  Allocating rowsets for step 2 --> Redshift-diagnostic-gm-starts-math
+2016/05/03 11:23:17 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:23:17 - system-daily-kpi - Transformation allocated new rowset [Redshift-diagnostic-gm-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - system-daily-kpi -  Allocated 3 rowsets for step 2 --> Redshift-diagnostic-gm-starts-math  
+2016/05/03 11:23:17 - system-daily-kpi -  Allocating rowsets for step 3 --> Redshift-diagnostic-gm-starts-ela
+2016/05/03 11:23:17 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:23:17 - system-daily-kpi - Transformation allocated new rowset [Redshift-diagnostic-gm-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - system-daily-kpi -  Allocated 4 rowsets for step 3 --> Redshift-diagnostic-gm-starts-ela  
+2016/05/03 11:23:17 - system-daily-kpi -  Allocating rowsets for step 4 --> Insert / Update
+2016/05/03 11:23:17 - system-daily-kpi -  Allocated 4 rowsets for step 4 --> Insert / Update  
+2016/05/03 11:23:17 - system-daily-kpi -  Allocating rowsets for step 5 --> Redshift-lesson-starts-ela
+2016/05/03 11:23:17 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:23:17 - system-daily-kpi - Transformation allocated new rowset [Redshift-lesson-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - system-daily-kpi -  Allocated 5 rowsets for step 5 --> Redshift-lesson-starts-ela  
+2016/05/03 11:23:17 - system-daily-kpi -  Allocating rowsets for step 6 --> Redshift-lesson-starts-math
+2016/05/03 11:23:17 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:23:17 - system-daily-kpi - Transformation allocated new rowset [Redshift-lesson-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - system-daily-kpi -  Allocated 6 rowsets for step 6 --> Redshift-lesson-starts-math  
+2016/05/03 11:23:17 - system-daily-kpi -  Allocating rowsets for step 7 --> Redshift-diagnostic-test-starts-math
+2016/05/03 11:23:17 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:23:17 - system-daily-kpi - Transformation allocated new rowset [Redshift-diagnostic-test-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - system-daily-kpi -  Allocated 7 rowsets for step 7 --> Redshift-diagnostic-test-starts-math  
+2016/05/03 11:23:17 - system-daily-kpi -  Allocating rowsets for step 8 --> Redshift-diagnostic-test-completions-ela
+2016/05/03 11:23:17 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:23:17 - system-daily-kpi - Transformation allocated new rowset [Redshift-diagnostic-test-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - system-daily-kpi -  Allocated 8 rowsets for step 8 --> Redshift-diagnostic-test-completions-ela  
+2016/05/03 11:23:17 - system-daily-kpi -  Allocating rowsets for step 9 --> Redshift-diagnostic-test-completions-math
+2016/05/03 11:23:17 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:23:17 - system-daily-kpi - Transformation allocated new rowset [Redshift-diagnostic-test-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - system-daily-kpi -  Allocated 9 rowsets for step 9 --> Redshift-diagnostic-test-completions-math  
+2016/05/03 11:23:17 - system-daily-kpi -  Allocating rowsets for step 10 --> Redshift-diagnostic-gm-completions-ela
+2016/05/03 11:23:17 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:23:17 - system-daily-kpi - Transformation allocated new rowset [Redshift-diagnostic-gm-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - system-daily-kpi -  Allocated 10 rowsets for step 10 --> Redshift-diagnostic-gm-completions-ela  
+2016/05/03 11:23:17 - system-daily-kpi -  Allocating rowsets for step 11 --> Redshift-diagnostic-gm-completions-math
+2016/05/03 11:23:17 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:23:17 - system-daily-kpi - Transformation allocated new rowset [Redshift-diagnostic-gm-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - system-daily-kpi -  Allocated 11 rowsets for step 11 --> Redshift-diagnostic-gm-completions-math  
+2016/05/03 11:23:17 - system-daily-kpi -  Allocating rowsets for step 12 --> Redshift-lesson-completions-ela
+2016/05/03 11:23:17 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:23:17 - system-daily-kpi - Transformation allocated new rowset [Redshift-lesson-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - system-daily-kpi -  Allocated 12 rowsets for step 12 --> Redshift-lesson-completions-ela  
+2016/05/03 11:23:17 - system-daily-kpi -  Allocating rowsets for step 13 --> Redshift-lesson-completions-math
+2016/05/03 11:23:17 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:23:17 - system-daily-kpi - Transformation allocated new rowset [Redshift-lesson-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - system-daily-kpi -  Allocated 13 rowsets for step 13 --> Redshift-lesson-completions-math  
+2016/05/03 11:23:17 - system-daily-kpi -  Allocating rowsets for step 14 --> Redshift-student-enrollments
+2016/05/03 11:23:17 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:23:17 - system-daily-kpi - Transformation allocated new rowset [Redshift-student-enrollments.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - system-daily-kpi -  Allocated 14 rowsets for step 14 --> Redshift-student-enrollments  
+2016/05/03 11:23:17 - system-daily-kpi -  Allocating rowsets for step 15 --> Redshift-staff-enrollments
+2016/05/03 11:23:17 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:23:17 - system-daily-kpi - Transformation allocated new rowset [Redshift-staff-enrollments.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - system-daily-kpi -  Allocated 15 rowsets for step 15 --> Redshift-staff-enrollments  
+2016/05/03 11:23:17 - system-daily-kpi -  Allocating rowsets for step 16 --> Redshift-ism-test-starts-ela
+2016/05/03 11:23:17 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:23:17 - system-daily-kpi - Transformation allocated new rowset [Redshift-ism-test-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - system-daily-kpi -  Allocated 16 rowsets for step 16 --> Redshift-ism-test-starts-ela  
+2016/05/03 11:23:17 - system-daily-kpi -  Allocating rowsets for step 17 --> Redshift-ism-test-starts-math
+2016/05/03 11:23:17 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:23:17 - system-daily-kpi - Transformation allocated new rowset [Redshift-ism-test-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - system-daily-kpi -  Allocated 17 rowsets for step 17 --> Redshift-ism-test-starts-math  
+2016/05/03 11:23:17 - system-daily-kpi -  Allocating rowsets for step 18 --> Redshift-ism-test-completions-ela
+2016/05/03 11:23:17 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:23:17 - system-daily-kpi - Transformation allocated new rowset [Redshift-ism-test-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - system-daily-kpi -  Allocated 18 rowsets for step 18 --> Redshift-ism-test-completions-ela  
+2016/05/03 11:23:17 - system-daily-kpi -  Allocating rowsets for step 19 --> Redshift-ism-test-completions-math
+2016/05/03 11:23:17 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 11:23:17 - system-daily-kpi - Transformation allocated new rowset [Redshift-ism-test-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - system-daily-kpi -  Allocated 19 rowsets for step 19 --> Redshift-ism-test-completions-math  
+2016/05/03 11:23:17 - system-daily-kpi - Allocating Steps & StepData...
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation is about to allocate step [Redshift-diagnostic-test-starts-ela] of type [TableInput]
+2016/05/03 11:23:17 - Redshift-diagnostic-test-starts-ela.0 - distribution activated
+2016/05/03 11:23:17 - Redshift-diagnostic-test-starts-ela.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:23:17 - Redshift-diagnostic-test-starts-ela.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:23:17 - Redshift-diagnostic-test-starts-ela.0 - output rel. is  1:1
+2016/05/03 11:23:17 - Redshift-diagnostic-test-starts-ela.0 - Found output rowset [Redshift-diagnostic-test-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Redshift-diagnostic-test-starts-ela.0 - Finished dispatching
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-diagnostic-test-starts-ela].0
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation is about to allocate step [Multiway Merge Join] of type [MultiwayMergeJoin]
+2016/05/03 11:23:17 - Multiway Merge Join.0 - distribution de-activated
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Step info: nrinput=18 nroutput=1
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #0 --> Redshift-diagnostic-test-starts-ela
+2016/05/03 11:23:17 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Found input rowset [Redshift-diagnostic-test-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #1 --> Redshift-diagnostic-gm-starts-math
+2016/05/03 11:23:17 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Found input rowset [Redshift-diagnostic-gm-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #2 --> Redshift-diagnostic-gm-starts-ela
+2016/05/03 11:23:17 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Found input rowset [Redshift-diagnostic-gm-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #3 --> Redshift-lesson-starts-ela
+2016/05/03 11:23:17 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Found input rowset [Redshift-lesson-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #4 --> Redshift-lesson-starts-math
+2016/05/03 11:23:17 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Found input rowset [Redshift-lesson-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #5 --> Redshift-diagnostic-test-starts-math
+2016/05/03 11:23:17 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Found input rowset [Redshift-diagnostic-test-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #6 --> Redshift-diagnostic-test-completions-ela
+2016/05/03 11:23:17 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Found input rowset [Redshift-diagnostic-test-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #7 --> Redshift-diagnostic-test-completions-math
+2016/05/03 11:23:17 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Found input rowset [Redshift-diagnostic-test-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #8 --> Redshift-diagnostic-gm-completions-ela
+2016/05/03 11:23:17 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Found input rowset [Redshift-diagnostic-gm-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #9 --> Redshift-diagnostic-gm-completions-math
+2016/05/03 11:23:17 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Found input rowset [Redshift-diagnostic-gm-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #10 --> Redshift-lesson-completions-ela
+2016/05/03 11:23:17 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Found input rowset [Redshift-lesson-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #11 --> Redshift-lesson-completions-math
+2016/05/03 11:23:17 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Found input rowset [Redshift-lesson-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #12 --> Redshift-student-enrollments
+2016/05/03 11:23:17 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Found input rowset [Redshift-student-enrollments.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #13 --> Redshift-staff-enrollments
+2016/05/03 11:23:17 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Found input rowset [Redshift-staff-enrollments.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #14 --> Redshift-ism-test-starts-ela
+2016/05/03 11:23:17 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Found input rowset [Redshift-ism-test-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #15 --> Redshift-ism-test-starts-math
+2016/05/03 11:23:17 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Found input rowset [Redshift-ism-test-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #16 --> Redshift-ism-test-completions-ela
+2016/05/03 11:23:17 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Found input rowset [Redshift-ism-test-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #17 --> Redshift-ism-test-completions-math
+2016/05/03 11:23:17 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Found input rowset [Redshift-ism-test-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Multiway Merge Join.0 - output rel. is  1:1
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Found output rowset [Multiway Merge Join.0 - Insert / Update.0]
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Finished dispatching
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation has allocated a new step: [Multiway Merge Join].0
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation is about to allocate step [Redshift-diagnostic-gm-starts-math] of type [TableInput]
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-starts-math.0 - distribution activated
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-starts-math.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-starts-math.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-starts-math.0 - output rel. is  1:1
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-starts-math.0 - Found output rowset [Redshift-diagnostic-gm-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-starts-math.0 - Finished dispatching
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-diagnostic-gm-starts-math].0
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation is about to allocate step [Redshift-diagnostic-gm-starts-ela] of type [TableInput]
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-starts-ela.0 - distribution activated
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-starts-ela.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-starts-ela.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-starts-ela.0 - output rel. is  1:1
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-starts-ela.0 - Found output rowset [Redshift-diagnostic-gm-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-starts-ela.0 - Finished dispatching
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-diagnostic-gm-starts-ela].0
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation is about to allocate step [Insert / Update] of type [InsertUpdate]
+2016/05/03 11:23:17 - Insert / Update.0 - distribution activated
+2016/05/03 11:23:17 - Insert / Update.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:23:17 - Insert / Update.0 - Step info: nrinput=1 nroutput=0
+2016/05/03 11:23:17 - Insert / Update.0 - Got previous step from [Insert / Update] #0 --> Multiway Merge Join
+2016/05/03 11:23:17 - Insert / Update.0 - input rel is 1:1
+2016/05/03 11:23:17 - Insert / Update.0 - Found input rowset [Multiway Merge Join.0 - Insert / Update.0]
+2016/05/03 11:23:17 - Insert / Update.0 - Finished dispatching
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation has allocated a new step: [Insert / Update].0
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation is about to allocate step [Redshift-lesson-starts-ela] of type [TableInput]
+2016/05/03 11:23:17 - Redshift-lesson-starts-ela.0 - distribution activated
+2016/05/03 11:23:17 - Redshift-lesson-starts-ela.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:23:17 - Redshift-lesson-starts-ela.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:23:17 - Redshift-lesson-starts-ela.0 - output rel. is  1:1
+2016/05/03 11:23:17 - Redshift-lesson-starts-ela.0 - Found output rowset [Redshift-lesson-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Redshift-lesson-starts-ela.0 - Finished dispatching
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-lesson-starts-ela].0
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation is about to allocate step [Redshift-lesson-starts-math] of type [TableInput]
+2016/05/03 11:23:17 - Redshift-lesson-starts-math.0 - distribution activated
+2016/05/03 11:23:17 - Redshift-lesson-starts-math.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:23:17 - Redshift-lesson-starts-math.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:23:17 - Redshift-lesson-starts-math.0 - output rel. is  1:1
+2016/05/03 11:23:17 - Redshift-lesson-starts-math.0 - Found output rowset [Redshift-lesson-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Redshift-lesson-starts-math.0 - Finished dispatching
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-lesson-starts-math].0
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation is about to allocate step [Redshift-diagnostic-test-starts-math] of type [TableInput]
+2016/05/03 11:23:17 - Redshift-diagnostic-test-starts-math.0 - distribution de-activated
+2016/05/03 11:23:17 - Redshift-diagnostic-test-starts-math.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:23:17 - Redshift-diagnostic-test-starts-math.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:23:17 - Redshift-diagnostic-test-starts-math.0 - output rel. is  1:1
+2016/05/03 11:23:17 - Redshift-diagnostic-test-starts-math.0 - Found output rowset [Redshift-diagnostic-test-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Redshift-diagnostic-test-starts-math.0 - Finished dispatching
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-diagnostic-test-starts-math].0
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation is about to allocate step [Redshift-diagnostic-test-completions-ela] of type [TableInput]
+2016/05/03 11:23:17 - Redshift-diagnostic-test-completions-ela.0 - distribution activated
+2016/05/03 11:23:17 - Redshift-diagnostic-test-completions-ela.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:23:17 - Redshift-diagnostic-test-completions-ela.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:23:17 - Redshift-diagnostic-test-completions-ela.0 - output rel. is  1:1
+2016/05/03 11:23:17 - Redshift-diagnostic-test-completions-ela.0 - Found output rowset [Redshift-diagnostic-test-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Redshift-diagnostic-test-completions-ela.0 - Finished dispatching
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-diagnostic-test-completions-ela].0
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation is about to allocate step [Redshift-diagnostic-test-completions-math] of type [TableInput]
+2016/05/03 11:23:17 - Redshift-diagnostic-test-completions-math.0 - distribution de-activated
+2016/05/03 11:23:17 - Redshift-diagnostic-test-completions-math.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:23:17 - Redshift-diagnostic-test-completions-math.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:23:17 - Redshift-diagnostic-test-completions-math.0 - output rel. is  1:1
+2016/05/03 11:23:17 - Redshift-diagnostic-test-completions-math.0 - Found output rowset [Redshift-diagnostic-test-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Redshift-diagnostic-test-completions-math.0 - Finished dispatching
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-diagnostic-test-completions-math].0
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation is about to allocate step [Redshift-diagnostic-gm-completions-ela] of type [TableInput]
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-completions-ela.0 - distribution activated
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-completions-ela.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-completions-ela.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-completions-ela.0 - output rel. is  1:1
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-completions-ela.0 - Found output rowset [Redshift-diagnostic-gm-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-completions-ela.0 - Finished dispatching
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-diagnostic-gm-completions-ela].0
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation is about to allocate step [Redshift-diagnostic-gm-completions-math] of type [TableInput]
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-completions-math.0 - distribution activated
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-completions-math.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-completions-math.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-completions-math.0 - output rel. is  1:1
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-completions-math.0 - Found output rowset [Redshift-diagnostic-gm-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-completions-math.0 - Finished dispatching
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-diagnostic-gm-completions-math].0
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation is about to allocate step [Redshift-lesson-completions-ela] of type [TableInput]
+2016/05/03 11:23:17 - Redshift-lesson-completions-ela.0 - distribution activated
+2016/05/03 11:23:17 - Redshift-lesson-completions-ela.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:23:17 - Redshift-lesson-completions-ela.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:23:17 - Redshift-lesson-completions-ela.0 - output rel. is  1:1
+2016/05/03 11:23:17 - Redshift-lesson-completions-ela.0 - Found output rowset [Redshift-lesson-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Redshift-lesson-completions-ela.0 - Finished dispatching
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-lesson-completions-ela].0
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation is about to allocate step [Redshift-lesson-completions-math] of type [TableInput]
+2016/05/03 11:23:17 - Redshift-lesson-completions-math.0 - distribution activated
+2016/05/03 11:23:17 - Redshift-lesson-completions-math.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:23:17 - Redshift-lesson-completions-math.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:23:17 - Redshift-lesson-completions-math.0 - output rel. is  1:1
+2016/05/03 11:23:17 - Redshift-lesson-completions-math.0 - Found output rowset [Redshift-lesson-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Redshift-lesson-completions-math.0 - Finished dispatching
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-lesson-completions-math].0
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation is about to allocate step [Redshift-student-enrollments] of type [TableInput]
+2016/05/03 11:23:17 - Redshift-student-enrollments.0 - distribution activated
+2016/05/03 11:23:17 - Redshift-student-enrollments.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:23:17 - Redshift-student-enrollments.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:23:17 - Redshift-student-enrollments.0 - output rel. is  1:1
+2016/05/03 11:23:17 - Redshift-student-enrollments.0 - Found output rowset [Redshift-student-enrollments.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Redshift-student-enrollments.0 - Finished dispatching
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-student-enrollments].0
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation is about to allocate step [Redshift-staff-enrollments] of type [TableInput]
+2016/05/03 11:23:17 - Redshift-staff-enrollments.0 - distribution activated
+2016/05/03 11:23:17 - Redshift-staff-enrollments.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:23:17 - Redshift-staff-enrollments.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:23:17 - Redshift-staff-enrollments.0 - output rel. is  1:1
+2016/05/03 11:23:17 - Redshift-staff-enrollments.0 - Found output rowset [Redshift-staff-enrollments.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Redshift-staff-enrollments.0 - Finished dispatching
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-staff-enrollments].0
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation is about to allocate step [Redshift-ism-test-starts-ela] of type [TableInput]
+2016/05/03 11:23:17 - Redshift-ism-test-starts-ela.0 - distribution activated
+2016/05/03 11:23:17 - Redshift-ism-test-starts-ela.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:23:17 - Redshift-ism-test-starts-ela.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:23:17 - Redshift-ism-test-starts-ela.0 - output rel. is  1:1
+2016/05/03 11:23:17 - Redshift-ism-test-starts-ela.0 - Found output rowset [Redshift-ism-test-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Redshift-ism-test-starts-ela.0 - Finished dispatching
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-ism-test-starts-ela].0
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation is about to allocate step [Redshift-ism-test-starts-math] of type [TableInput]
+2016/05/03 11:23:17 - Redshift-ism-test-starts-math.0 - distribution activated
+2016/05/03 11:23:17 - Redshift-ism-test-starts-math.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:23:17 - Redshift-ism-test-starts-math.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:23:17 - Redshift-ism-test-starts-math.0 - output rel. is  1:1
+2016/05/03 11:23:17 - Redshift-ism-test-starts-math.0 - Found output rowset [Redshift-ism-test-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Redshift-ism-test-starts-math.0 - Finished dispatching
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-ism-test-starts-math].0
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation is about to allocate step [Redshift-ism-test-completions-ela] of type [TableInput]
+2016/05/03 11:23:17 - Redshift-ism-test-completions-ela.0 - distribution activated
+2016/05/03 11:23:17 - Redshift-ism-test-completions-ela.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:23:17 - Redshift-ism-test-completions-ela.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:23:17 - Redshift-ism-test-completions-ela.0 - output rel. is  1:1
+2016/05/03 11:23:17 - Redshift-ism-test-completions-ela.0 - Found output rowset [Redshift-ism-test-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Redshift-ism-test-completions-ela.0 - Finished dispatching
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-ism-test-completions-ela].0
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation is about to allocate step [Redshift-ism-test-completions-math] of type [TableInput]
+2016/05/03 11:23:17 - Redshift-ism-test-completions-math.0 - distribution activated
+2016/05/03 11:23:17 - Redshift-ism-test-completions-math.0 - Starting allocation of buffers & new threads...
+2016/05/03 11:23:17 - Redshift-ism-test-completions-math.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 11:23:17 - Redshift-ism-test-completions-math.0 - output rel. is  1:1
+2016/05/03 11:23:17 - Redshift-ism-test-completions-math.0 - Found output rowset [Redshift-ism-test-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 11:23:17 - Redshift-ism-test-completions-math.0 - Finished dispatching
+2016/05/03 11:23:17 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-ism-test-completions-math].0
+2016/05/03 11:23:17 - system-daily-kpi - This transformation can be replayed with replay date: 2016/05/03 11:23:17
+2016/05/03 11:23:17 - system-daily-kpi - Initialising 20 steps...
+2016/05/03 11:23:17 - Redshift-diagnostic-test-starts-ela.0 - Released server socket on port 0
+2016/05/03 11:23:17 - Multiway Merge Join.0 - Released server socket on port 0
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-starts-math.0 - Released server socket on port 0
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-starts-ela.0 - Released server socket on port 0
+2016/05/03 11:23:17 - Insert / Update.0 - Released server socket on port 0
+2016/05/03 11:23:17 - Redshift-lesson-starts-ela.0 - Released server socket on port 0
+2016/05/03 11:23:17 - Redshift-lesson-starts-math.0 - Released server socket on port 0
+2016/05/03 11:23:17 - Redshift-diagnostic-test-starts-math.0 - Released server socket on port 0
+2016/05/03 11:23:17 - Redshift-diagnostic-test-completions-ela.0 - Released server socket on port 0
+2016/05/03 11:23:17 - Redshift-diagnostic-test-completions-math.0 - Released server socket on port 0
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-completions-ela.0 - Released server socket on port 0
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-completions-math.0 - Released server socket on port 0
+2016/05/03 11:23:17 - Redshift-lesson-completions-ela.0 - Released server socket on port 0
+2016/05/03 11:23:17 - Redshift-ism-test-completions-math.0 - Released server socket on port 0
+2016/05/03 11:23:17 - Redshift-ism-test-completions-ela.0 - Released server socket on port 0
+2016/05/03 11:23:17 - Redshift-ism-test-starts-math.0 - Released server socket on port 0
+2016/05/03 11:23:17 - Redshift-ism-test-starts-ela.0 - Released server socket on port 0
+2016/05/03 11:23:17 - Redshift-staff-enrollments.0 - Released server socket on port 0
+2016/05/03 11:23:17 - Redshift-student-enrollments.0 - Released server socket on port 0
+2016/05/03 11:23:17 - Redshift-lesson-completions-math.0 - Released server socket on port 0
+2016/05/03 11:23:17 - Redshift - pikachu - New database connection defined
+2016/05/03 11:23:17 - MySQL - localhost - New database connection defined
+2016/05/03 11:23:17 - Redshift - pikachu - New database connection defined
+2016/05/03 11:23:17 - Redshift - pikachu - New database connection defined
+2016/05/03 11:23:17 - Redshift - pikachu - New database connection defined
+2016/05/03 11:23:17 - Redshift - pikachu - New database connection defined
+2016/05/03 11:23:17 - Redshift - pikachu - New database connection defined
+2016/05/03 11:23:17 - Redshift - pikachu - New database connection defined
+2016/05/03 11:23:17 - Redshift - pikachu - New database connection defined
+2016/05/03 11:23:17 - Redshift - pikachu - New database connection defined
+2016/05/03 11:23:17 - Redshift - pikachu - New database connection defined
+2016/05/03 11:23:17 - Redshift - pikachu - New database connection defined
+2016/05/03 11:23:17 - Redshift - pikachu - New database connection defined
+2016/05/03 11:23:17 - Redshift - pikachu - New database connection defined
+2016/05/03 11:23:17 - Redshift - pikachu - New database connection defined
+2016/05/03 11:23:17 - Redshift - pikachu - New database connection defined
+2016/05/03 11:23:17 - Redshift - pikachu - New database connection defined
+2016/05/03 11:23:17 - Redshift - pikachu - New database connection defined
+2016/05/03 11:23:17 - Redshift - pikachu - New database connection defined
+2016/05/03 11:23:17 - Redshift-ism-test-starts-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:23:17 - Redshift-ism-test-starts-ela.0 - Error occurred while trying to connect to the database
+2016/05/03 11:23:17 - Redshift-ism-test-starts-ela.0 - 
+2016/05/03 11:23:17 - Redshift-ism-test-starts-ela.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:23:17 - Redshift-ism-test-starts-ela.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:23:17 - Redshift-ism-test-completions-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:23:17 - Redshift-ism-test-completions-ela.0 - Error occurred while trying to connect to the database
+2016/05/03 11:23:17 - Redshift-ism-test-completions-ela.0 - 
+2016/05/03 11:23:17 - Redshift-ism-test-completions-ela.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:23:17 - Redshift-ism-test-completions-ela.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:23:17 - Redshift-lesson-completions-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:23:17 - Redshift-lesson-completions-math.0 - Error occurred while trying to connect to the database
+2016/05/03 11:23:17 - Redshift-lesson-completions-math.0 - 
+2016/05/03 11:23:17 - Redshift-lesson-completions-math.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:23:17 - Redshift-lesson-completions-math.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-completions-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-completions-ela.0 - Error occurred while trying to connect to the database
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-completions-ela.0 - 
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-completions-ela.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-completions-ela.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:23:17 - Redshift-diagnostic-test-completions-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:23:17 - Redshift-diagnostic-test-completions-ela.0 - Error occurred while trying to connect to the database
+2016/05/03 11:23:17 - Redshift-diagnostic-test-completions-ela.0 - 
+2016/05/03 11:23:17 - Redshift-diagnostic-test-completions-ela.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:23:17 - Redshift-diagnostic-test-completions-ela.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:23:17 - Redshift-student-enrollments.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:23:17 - Redshift-student-enrollments.0 - Error occurred while trying to connect to the database
+2016/05/03 11:23:17 - Redshift-student-enrollments.0 - 
+2016/05/03 11:23:17 - Redshift-student-enrollments.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:23:17 - Redshift-student-enrollments.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:23:17 - Redshift-ism-test-completions-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:23:17 - Redshift-ism-test-completions-math.0 - Error occurred while trying to connect to the database
+2016/05/03 11:23:17 - Redshift-ism-test-completions-math.0 - 
+2016/05/03 11:23:17 - Redshift-ism-test-completions-math.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:23:17 - Redshift-ism-test-completions-math.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:23:17 - Redshift-lesson-completions-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:23:17 - Redshift-lesson-completions-ela.0 - Error occurred while trying to connect to the database
+2016/05/03 11:23:17 - Redshift-lesson-completions-ela.0 - 
+2016/05/03 11:23:17 - Redshift-lesson-completions-ela.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:23:17 - Redshift-lesson-completions-ela.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-starts-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-starts-ela.0 - Error occurred while trying to connect to the database
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-starts-ela.0 - 
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-starts-ela.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-starts-ela.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:23:17 - Redshift-diagnostic-test-starts-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:23:17 - Redshift-diagnostic-test-starts-math.0 - Error occurred while trying to connect to the database
+2016/05/03 11:23:17 - Redshift-diagnostic-test-starts-math.0 - 
+2016/05/03 11:23:17 - Redshift-diagnostic-test-starts-math.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:23:17 - Redshift-diagnostic-test-starts-math.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:23:17 - Redshift-lesson-starts-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:23:17 - Redshift-lesson-starts-math.0 - Error occurred while trying to connect to the database
+2016/05/03 11:23:17 - Redshift-lesson-starts-math.0 - 
+2016/05/03 11:23:17 - Redshift-lesson-starts-math.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:23:17 - Redshift-lesson-starts-math.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:23:17 - Redshift-diagnostic-test-completions-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:23:17 - Redshift-diagnostic-test-completions-math.0 - Error occurred while trying to connect to the database
+2016/05/03 11:23:17 - Redshift-diagnostic-test-completions-math.0 - 
+2016/05/03 11:23:17 - Redshift-diagnostic-test-completions-math.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:23:17 - Redshift-diagnostic-test-completions-math.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:23:17 - Redshift-staff-enrollments.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:23:17 - Redshift-staff-enrollments.0 - Error occurred while trying to connect to the database
+2016/05/03 11:23:17 - Redshift-staff-enrollments.0 - 
+2016/05/03 11:23:17 - Redshift-staff-enrollments.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:23:17 - Redshift-staff-enrollments.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-starts-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-starts-math.0 - Error occurred while trying to connect to the database
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-starts-math.0 - 
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-starts-math.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-starts-math.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-completions-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-completions-math.0 - Error occurred while trying to connect to the database
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-completions-math.0 - 
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-completions-math.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-completions-math.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:23:17 - Redshift-lesson-starts-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:23:17 - Redshift-lesson-starts-ela.0 - Error occurred while trying to connect to the database
+2016/05/03 11:23:17 - Redshift-lesson-starts-ela.0 - 
+2016/05/03 11:23:17 - Redshift-lesson-starts-ela.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:23:17 - Redshift-lesson-starts-ela.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:23:17 - Redshift-diagnostic-test-starts-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:23:17 - Redshift-diagnostic-test-starts-ela.0 - Error occurred while trying to connect to the database
+2016/05/03 11:23:17 - Redshift-diagnostic-test-starts-ela.0 - 
+2016/05/03 11:23:17 - Redshift-diagnostic-test-starts-ela.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:23:17 - Redshift-diagnostic-test-starts-ela.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:23:17 - Redshift-ism-test-starts-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : An error occurred, processing will be stopped: 
+2016/05/03 11:23:17 - Redshift-ism-test-starts-math.0 - Error occurred while trying to connect to the database
+2016/05/03 11:23:17 - Redshift-ism-test-starts-math.0 - 
+2016/05/03 11:23:17 - Redshift-ism-test-starts-math.0 - Error connecting to database: (using class com.amazon.redshift.jdbc4.Driver)
+2016/05/03 11:23:17 - Redshift-ism-test-starts-math.0 - [Amazon](500150) Error setting/closing connection: UnknownHostException.
+2016/05/03 11:23:17 - Redshift-lesson-completions-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-lesson-completions-math]
+2016/05/03 11:23:17 - Redshift-lesson-starts-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-lesson-starts-ela]
+2016/05/03 11:23:17 - Redshift-student-enrollments.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-student-enrollments]
+2016/05/03 11:23:17 - Redshift-lesson-starts-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-lesson-starts-math]
+2016/05/03 11:23:17 - Redshift-ism-test-completions-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-ism-test-completions-ela]
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-starts-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-diagnostic-gm-starts-math]
+2016/05/03 11:23:17 - Redshift-lesson-completions-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-lesson-completions-ela]
+2016/05/03 11:23:17 - Redshift-ism-test-completions-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-ism-test-completions-math]
+2016/05/03 11:23:17 - Redshift-diagnostic-test-completions-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-diagnostic-test-completions-math]
+2016/05/03 11:23:17 - Redshift-staff-enrollments.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-staff-enrollments]
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-starts-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-diagnostic-gm-starts-ela]
+2016/05/03 11:23:17 - Redshift-diagnostic-test-starts-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-diagnostic-test-starts-math]
+2016/05/03 11:23:17 - Redshift-diagnostic-test-starts-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-diagnostic-test-starts-ela]
+2016/05/03 11:23:17 - Redshift-diagnostic-test-completions-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-diagnostic-test-completions-ela]
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-completions-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-diagnostic-gm-completions-ela]
+2016/05/03 11:23:17 - Redshift-diagnostic-gm-completions-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-diagnostic-gm-completions-math]
+2016/05/03 11:23:17 - Redshift-ism-test-starts-ela.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-ism-test-starts-ela]
+2016/05/03 11:23:17 - Redshift-ism-test-starts-math.0 - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Error initializing step [Redshift-ism-test-starts-math]
+2016/05/03 11:23:18 - MySQL - localhost - Auto commit off
+2016/05/03 11:23:18 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-diagnostic-test-starts-ela.0] failed to initialize!
+2016/05/03 11:23:18 - system-daily-kpi - Step [Multiway Merge Join.0] initialized flawlessly.
+2016/05/03 11:23:18 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-diagnostic-gm-starts-math.0] failed to initialize!
+2016/05/03 11:23:18 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-diagnostic-gm-starts-ela.0] failed to initialize!
+2016/05/03 11:23:18 - system-daily-kpi - Step [Insert / Update.0] initialized flawlessly.
+2016/05/03 11:23:18 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-lesson-starts-ela.0] failed to initialize!
+2016/05/03 11:23:18 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-lesson-starts-math.0] failed to initialize!
+2016/05/03 11:23:18 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-diagnostic-test-starts-math.0] failed to initialize!
+2016/05/03 11:23:18 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-diagnostic-test-completions-ela.0] failed to initialize!
+2016/05/03 11:23:18 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-diagnostic-test-completions-math.0] failed to initialize!
+2016/05/03 11:23:18 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-diagnostic-gm-completions-ela.0] failed to initialize!
+2016/05/03 11:23:18 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-diagnostic-gm-completions-math.0] failed to initialize!
+2016/05/03 11:23:18 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-lesson-completions-ela.0] failed to initialize!
+2016/05/03 11:23:18 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-lesson-completions-math.0] failed to initialize!
+2016/05/03 11:23:18 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-student-enrollments.0] failed to initialize!
+2016/05/03 11:23:18 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-staff-enrollments.0] failed to initialize!
+2016/05/03 11:23:18 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-ism-test-starts-ela.0] failed to initialize!
+2016/05/03 11:23:18 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-ism-test-starts-math.0] failed to initialize!
+2016/05/03 11:23:18 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-ism-test-completions-ela.0] failed to initialize!
+2016/05/03 11:23:18 - system-daily-kpi - ERROR (version 6.1.0.1-196, build 1 from 2016-04-07 12.08.49 by buildguy) : Step [Redshift-ism-test-completions-math.0] failed to initialize!
+2016/05/03 11:23:18 - Redshift-diagnostic-test-starts-ela.0 - Finished reading query, closing connection.
+2016/05/03 11:23:18 - Redshift-diagnostic-gm-starts-math.0 - Finished reading query, closing connection.
+2016/05/03 11:23:18 - Redshift-diagnostic-gm-starts-ela.0 - Finished reading query, closing connection.
+2016/05/03 11:23:18 - MySQL - localhost - Connection to database closed!
+2016/05/03 11:23:18 - Redshift-lesson-starts-ela.0 - Finished reading query, closing connection.
+2016/05/03 11:23:18 - Redshift-lesson-starts-math.0 - Finished reading query, closing connection.
+2016/05/03 11:23:18 - Redshift-diagnostic-test-starts-math.0 - Finished reading query, closing connection.
+2016/05/03 11:23:18 - Redshift-diagnostic-test-completions-ela.0 - Finished reading query, closing connection.
+2016/05/03 11:23:18 - Redshift-diagnostic-test-completions-math.0 - Finished reading query, closing connection.
+2016/05/03 11:23:18 - Redshift-diagnostic-gm-completions-ela.0 - Finished reading query, closing connection.
+2016/05/03 11:23:18 - Redshift-diagnostic-gm-completions-math.0 - Finished reading query, closing connection.
+2016/05/03 11:23:18 - Redshift-lesson-completions-ela.0 - Finished reading query, closing connection.
+2016/05/03 11:23:18 - Redshift-lesson-completions-math.0 - Finished reading query, closing connection.
+2016/05/03 11:23:18 - Redshift-student-enrollments.0 - Finished reading query, closing connection.
+2016/05/03 11:23:18 - Redshift-staff-enrollments.0 - Finished reading query, closing connection.
+2016/05/03 11:23:18 - Redshift-ism-test-starts-ela.0 - Finished reading query, closing connection.
+2016/05/03 11:23:18 - Redshift-ism-test-starts-math.0 - Finished reading query, closing connection.
+2016/05/03 11:23:18 - Redshift-ism-test-completions-ela.0 - Finished reading query, closing connection.
+2016/05/03 11:23:18 - Redshift-ism-test-completions-math.0 - Finished reading query, closing connection.
+2016/05/03 15:19:59 - Pan - Logging is at level : Detailed
+2016/05/03 15:19:59 - Pan - Start of run.
+2016/05/03 15:20:00 - Pan - Loading transformation from XML file [/Users/ddorazio/dev/projects/dw-kpi-pipelines/pdi/system-daily-kpi.ktr]
+2016/05/03 15:20:00 - system-daily-kpi - Dispatching started for transformation [system-daily-kpi]
+2016/05/03 15:20:00 - system-daily-kpi - Nr of arguments detected:0 
+2016/05/03 15:20:00 - system-daily-kpi - This is not a replay transformation
+2016/05/03 15:20:00 - system-daily-kpi - I found 20 different steps to launch.
+2016/05/03 15:20:00 - system-daily-kpi - Allocating rowsets...
+2016/05/03 15:20:00 - system-daily-kpi -  Allocating rowsets for step 0 --> Redshift-diagnostic-test-starts-ela
+2016/05/03 15:20:00 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 15:20:00 - system-daily-kpi - Transformation allocated new rowset [Redshift-diagnostic-test-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - system-daily-kpi -  Allocated 1 rowsets for step 0 --> Redshift-diagnostic-test-starts-ela  
+2016/05/03 15:20:00 - system-daily-kpi -  Allocating rowsets for step 1 --> Multiway Merge Join
+2016/05/03 15:20:00 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 15:20:00 - system-daily-kpi - Transformation allocated new rowset [Multiway Merge Join.0 - Insert / Update.0]
+2016/05/03 15:20:00 - system-daily-kpi -  Allocated 2 rowsets for step 1 --> Multiway Merge Join  
+2016/05/03 15:20:00 - system-daily-kpi -  Allocating rowsets for step 2 --> Redshift-diagnostic-gm-starts-math
+2016/05/03 15:20:00 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 15:20:00 - system-daily-kpi - Transformation allocated new rowset [Redshift-diagnostic-gm-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - system-daily-kpi -  Allocated 3 rowsets for step 2 --> Redshift-diagnostic-gm-starts-math  
+2016/05/03 15:20:00 - system-daily-kpi -  Allocating rowsets for step 3 --> Redshift-diagnostic-gm-starts-ela
+2016/05/03 15:20:00 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 15:20:00 - system-daily-kpi - Transformation allocated new rowset [Redshift-diagnostic-gm-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - system-daily-kpi -  Allocated 4 rowsets for step 3 --> Redshift-diagnostic-gm-starts-ela  
+2016/05/03 15:20:00 - system-daily-kpi -  Allocating rowsets for step 4 --> Insert / Update
+2016/05/03 15:20:00 - system-daily-kpi -  Allocated 4 rowsets for step 4 --> Insert / Update  
+2016/05/03 15:20:00 - system-daily-kpi -  Allocating rowsets for step 5 --> Redshift-lesson-starts-ela
+2016/05/03 15:20:00 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 15:20:00 - system-daily-kpi - Transformation allocated new rowset [Redshift-lesson-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - system-daily-kpi -  Allocated 5 rowsets for step 5 --> Redshift-lesson-starts-ela  
+2016/05/03 15:20:00 - system-daily-kpi -  Allocating rowsets for step 6 --> Redshift-lesson-starts-math
+2016/05/03 15:20:00 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 15:20:00 - system-daily-kpi - Transformation allocated new rowset [Redshift-lesson-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - system-daily-kpi -  Allocated 6 rowsets for step 6 --> Redshift-lesson-starts-math  
+2016/05/03 15:20:00 - system-daily-kpi -  Allocating rowsets for step 7 --> Redshift-diagnostic-test-starts-math
+2016/05/03 15:20:00 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 15:20:00 - system-daily-kpi - Transformation allocated new rowset [Redshift-diagnostic-test-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - system-daily-kpi -  Allocated 7 rowsets for step 7 --> Redshift-diagnostic-test-starts-math  
+2016/05/03 15:20:00 - system-daily-kpi -  Allocating rowsets for step 8 --> Redshift-diagnostic-test-completions-ela
+2016/05/03 15:20:00 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 15:20:00 - system-daily-kpi - Transformation allocated new rowset [Redshift-diagnostic-test-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - system-daily-kpi -  Allocated 8 rowsets for step 8 --> Redshift-diagnostic-test-completions-ela  
+2016/05/03 15:20:00 - system-daily-kpi -  Allocating rowsets for step 9 --> Redshift-diagnostic-test-completions-math
+2016/05/03 15:20:00 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 15:20:00 - system-daily-kpi - Transformation allocated new rowset [Redshift-diagnostic-test-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - system-daily-kpi -  Allocated 9 rowsets for step 9 --> Redshift-diagnostic-test-completions-math  
+2016/05/03 15:20:00 - system-daily-kpi -  Allocating rowsets for step 10 --> Redshift-diagnostic-gm-completions-ela
+2016/05/03 15:20:00 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 15:20:00 - system-daily-kpi - Transformation allocated new rowset [Redshift-diagnostic-gm-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - system-daily-kpi -  Allocated 10 rowsets for step 10 --> Redshift-diagnostic-gm-completions-ela  
+2016/05/03 15:20:00 - system-daily-kpi -  Allocating rowsets for step 11 --> Redshift-diagnostic-gm-completions-math
+2016/05/03 15:20:00 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 15:20:00 - system-daily-kpi - Transformation allocated new rowset [Redshift-diagnostic-gm-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - system-daily-kpi -  Allocated 11 rowsets for step 11 --> Redshift-diagnostic-gm-completions-math  
+2016/05/03 15:20:00 - system-daily-kpi -  Allocating rowsets for step 12 --> Redshift-lesson-completions-ela
+2016/05/03 15:20:00 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 15:20:00 - system-daily-kpi - Transformation allocated new rowset [Redshift-lesson-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - system-daily-kpi -  Allocated 12 rowsets for step 12 --> Redshift-lesson-completions-ela  
+2016/05/03 15:20:00 - system-daily-kpi -  Allocating rowsets for step 13 --> Redshift-lesson-completions-math
+2016/05/03 15:20:00 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 15:20:00 - system-daily-kpi - Transformation allocated new rowset [Redshift-lesson-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - system-daily-kpi -  Allocated 13 rowsets for step 13 --> Redshift-lesson-completions-math  
+2016/05/03 15:20:00 - system-daily-kpi -  Allocating rowsets for step 14 --> Redshift-student-enrollments
+2016/05/03 15:20:00 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 15:20:00 - system-daily-kpi - Transformation allocated new rowset [Redshift-student-enrollments.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - system-daily-kpi -  Allocated 14 rowsets for step 14 --> Redshift-student-enrollments  
+2016/05/03 15:20:00 - system-daily-kpi -  Allocating rowsets for step 15 --> Redshift-staff-enrollments
+2016/05/03 15:20:00 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 15:20:00 - system-daily-kpi - Transformation allocated new rowset [Redshift-staff-enrollments.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - system-daily-kpi -  Allocated 15 rowsets for step 15 --> Redshift-staff-enrollments  
+2016/05/03 15:20:00 - system-daily-kpi -  Allocating rowsets for step 16 --> Redshift-ism-test-starts-ela
+2016/05/03 15:20:00 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 15:20:00 - system-daily-kpi - Transformation allocated new rowset [Redshift-ism-test-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - system-daily-kpi -  Allocated 16 rowsets for step 16 --> Redshift-ism-test-starts-ela  
+2016/05/03 15:20:00 - system-daily-kpi -  Allocating rowsets for step 17 --> Redshift-ism-test-starts-math
+2016/05/03 15:20:00 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 15:20:00 - system-daily-kpi - Transformation allocated new rowset [Redshift-ism-test-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - system-daily-kpi -  Allocated 17 rowsets for step 17 --> Redshift-ism-test-starts-math  
+2016/05/03 15:20:00 - system-daily-kpi -  Allocating rowsets for step 18 --> Redshift-ism-test-completions-ela
+2016/05/03 15:20:00 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 15:20:00 - system-daily-kpi - Transformation allocated new rowset [Redshift-ism-test-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - system-daily-kpi -  Allocated 18 rowsets for step 18 --> Redshift-ism-test-completions-ela  
+2016/05/03 15:20:00 - system-daily-kpi -  Allocating rowsets for step 19 --> Redshift-ism-test-completions-math
+2016/05/03 15:20:00 - system-daily-kpi -   prevcopies = 1, nextcopies=1
+2016/05/03 15:20:00 - system-daily-kpi - Transformation allocated new rowset [Redshift-ism-test-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - system-daily-kpi -  Allocated 19 rowsets for step 19 --> Redshift-ism-test-completions-math  
+2016/05/03 15:20:00 - system-daily-kpi - Allocating Steps & StepData...
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation is about to allocate step [Redshift-diagnostic-test-starts-ela] of type [TableInput]
+2016/05/03 15:20:00 - Redshift-diagnostic-test-starts-ela.0 - distribution activated
+2016/05/03 15:20:00 - Redshift-diagnostic-test-starts-ela.0 - Starting allocation of buffers & new threads...
+2016/05/03 15:20:00 - Redshift-diagnostic-test-starts-ela.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 15:20:00 - Redshift-diagnostic-test-starts-ela.0 - output rel. is  1:1
+2016/05/03 15:20:00 - Redshift-diagnostic-test-starts-ela.0 - Found output rowset [Redshift-diagnostic-test-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Redshift-diagnostic-test-starts-ela.0 - Finished dispatching
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-diagnostic-test-starts-ela].0
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation is about to allocate step [Multiway Merge Join] of type [MultiwayMergeJoin]
+2016/05/03 15:20:00 - Multiway Merge Join.0 - distribution de-activated
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Starting allocation of buffers & new threads...
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Step info: nrinput=18 nroutput=1
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #0 --> Redshift-diagnostic-test-starts-ela
+2016/05/03 15:20:00 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Found input rowset [Redshift-diagnostic-test-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #1 --> Redshift-diagnostic-gm-starts-math
+2016/05/03 15:20:00 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Found input rowset [Redshift-diagnostic-gm-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #2 --> Redshift-diagnostic-gm-starts-ela
+2016/05/03 15:20:00 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Found input rowset [Redshift-diagnostic-gm-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #3 --> Redshift-lesson-starts-ela
+2016/05/03 15:20:00 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Found input rowset [Redshift-lesson-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #4 --> Redshift-lesson-starts-math
+2016/05/03 15:20:00 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Found input rowset [Redshift-lesson-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #5 --> Redshift-diagnostic-test-starts-math
+2016/05/03 15:20:00 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Found input rowset [Redshift-diagnostic-test-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #6 --> Redshift-diagnostic-test-completions-ela
+2016/05/03 15:20:00 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Found input rowset [Redshift-diagnostic-test-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #7 --> Redshift-diagnostic-test-completions-math
+2016/05/03 15:20:00 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Found input rowset [Redshift-diagnostic-test-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #8 --> Redshift-diagnostic-gm-completions-ela
+2016/05/03 15:20:00 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Found input rowset [Redshift-diagnostic-gm-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #9 --> Redshift-diagnostic-gm-completions-math
+2016/05/03 15:20:00 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Found input rowset [Redshift-diagnostic-gm-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #10 --> Redshift-lesson-completions-ela
+2016/05/03 15:20:00 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Found input rowset [Redshift-lesson-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #11 --> Redshift-lesson-completions-math
+2016/05/03 15:20:00 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Found input rowset [Redshift-lesson-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #12 --> Redshift-student-enrollments
+2016/05/03 15:20:00 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Found input rowset [Redshift-student-enrollments.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #13 --> Redshift-staff-enrollments
+2016/05/03 15:20:00 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Found input rowset [Redshift-staff-enrollments.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #14 --> Redshift-ism-test-starts-ela
+2016/05/03 15:20:00 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Found input rowset [Redshift-ism-test-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #15 --> Redshift-ism-test-starts-math
+2016/05/03 15:20:00 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Found input rowset [Redshift-ism-test-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #16 --> Redshift-ism-test-completions-ela
+2016/05/03 15:20:00 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Found input rowset [Redshift-ism-test-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Got previous step from [Multiway Merge Join] #17 --> Redshift-ism-test-completions-math
+2016/05/03 15:20:00 - Multiway Merge Join.0 - input rel is 1:1
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Found input rowset [Redshift-ism-test-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Multiway Merge Join.0 - output rel. is  1:1
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Found output rowset [Multiway Merge Join.0 - Insert / Update.0]
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Finished dispatching
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation has allocated a new step: [Multiway Merge Join].0
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation is about to allocate step [Redshift-diagnostic-gm-starts-math] of type [TableInput]
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-starts-math.0 - distribution activated
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-starts-math.0 - Starting allocation of buffers & new threads...
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-starts-math.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-starts-math.0 - output rel. is  1:1
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-starts-math.0 - Found output rowset [Redshift-diagnostic-gm-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-starts-math.0 - Finished dispatching
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-diagnostic-gm-starts-math].0
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation is about to allocate step [Redshift-diagnostic-gm-starts-ela] of type [TableInput]
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-starts-ela.0 - distribution activated
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-starts-ela.0 - Starting allocation of buffers & new threads...
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-starts-ela.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-starts-ela.0 - output rel. is  1:1
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-starts-ela.0 - Found output rowset [Redshift-diagnostic-gm-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-starts-ela.0 - Finished dispatching
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-diagnostic-gm-starts-ela].0
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation is about to allocate step [Insert / Update] of type [InsertUpdate]
+2016/05/03 15:20:00 - Insert / Update.0 - distribution activated
+2016/05/03 15:20:00 - Insert / Update.0 - Starting allocation of buffers & new threads...
+2016/05/03 15:20:00 - Insert / Update.0 - Step info: nrinput=1 nroutput=0
+2016/05/03 15:20:00 - Insert / Update.0 - Got previous step from [Insert / Update] #0 --> Multiway Merge Join
+2016/05/03 15:20:00 - Insert / Update.0 - input rel is 1:1
+2016/05/03 15:20:00 - Insert / Update.0 - Found input rowset [Multiway Merge Join.0 - Insert / Update.0]
+2016/05/03 15:20:00 - Insert / Update.0 - Finished dispatching
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation has allocated a new step: [Insert / Update].0
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation is about to allocate step [Redshift-lesson-starts-ela] of type [TableInput]
+2016/05/03 15:20:00 - Redshift-lesson-starts-ela.0 - distribution activated
+2016/05/03 15:20:00 - Redshift-lesson-starts-ela.0 - Starting allocation of buffers & new threads...
+2016/05/03 15:20:00 - Redshift-lesson-starts-ela.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 15:20:00 - Redshift-lesson-starts-ela.0 - output rel. is  1:1
+2016/05/03 15:20:00 - Redshift-lesson-starts-ela.0 - Found output rowset [Redshift-lesson-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Redshift-lesson-starts-ela.0 - Finished dispatching
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-lesson-starts-ela].0
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation is about to allocate step [Redshift-lesson-starts-math] of type [TableInput]
+2016/05/03 15:20:00 - Redshift-lesson-starts-math.0 - distribution activated
+2016/05/03 15:20:00 - Redshift-lesson-starts-math.0 - Starting allocation of buffers & new threads...
+2016/05/03 15:20:00 - Redshift-lesson-starts-math.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 15:20:00 - Redshift-lesson-starts-math.0 - output rel. is  1:1
+2016/05/03 15:20:00 - Redshift-lesson-starts-math.0 - Found output rowset [Redshift-lesson-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Redshift-lesson-starts-math.0 - Finished dispatching
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-lesson-starts-math].0
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation is about to allocate step [Redshift-diagnostic-test-starts-math] of type [TableInput]
+2016/05/03 15:20:00 - Redshift-diagnostic-test-starts-math.0 - distribution de-activated
+2016/05/03 15:20:00 - Redshift-diagnostic-test-starts-math.0 - Starting allocation of buffers & new threads...
+2016/05/03 15:20:00 - Redshift-diagnostic-test-starts-math.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 15:20:00 - Redshift-diagnostic-test-starts-math.0 - output rel. is  1:1
+2016/05/03 15:20:00 - Redshift-diagnostic-test-starts-math.0 - Found output rowset [Redshift-diagnostic-test-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Redshift-diagnostic-test-starts-math.0 - Finished dispatching
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-diagnostic-test-starts-math].0
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation is about to allocate step [Redshift-diagnostic-test-completions-ela] of type [TableInput]
+2016/05/03 15:20:00 - Redshift-diagnostic-test-completions-ela.0 - distribution activated
+2016/05/03 15:20:00 - Redshift-diagnostic-test-completions-ela.0 - Starting allocation of buffers & new threads...
+2016/05/03 15:20:00 - Redshift-diagnostic-test-completions-ela.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 15:20:00 - Redshift-diagnostic-test-completions-ela.0 - output rel. is  1:1
+2016/05/03 15:20:00 - Redshift-diagnostic-test-completions-ela.0 - Found output rowset [Redshift-diagnostic-test-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Redshift-diagnostic-test-completions-ela.0 - Finished dispatching
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-diagnostic-test-completions-ela].0
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation is about to allocate step [Redshift-diagnostic-test-completions-math] of type [TableInput]
+2016/05/03 15:20:00 - Redshift-diagnostic-test-completions-math.0 - distribution de-activated
+2016/05/03 15:20:00 - Redshift-diagnostic-test-completions-math.0 - Starting allocation of buffers & new threads...
+2016/05/03 15:20:00 - Redshift-diagnostic-test-completions-math.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 15:20:00 - Redshift-diagnostic-test-completions-math.0 - output rel. is  1:1
+2016/05/03 15:20:00 - Redshift-diagnostic-test-completions-math.0 - Found output rowset [Redshift-diagnostic-test-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Redshift-diagnostic-test-completions-math.0 - Finished dispatching
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-diagnostic-test-completions-math].0
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation is about to allocate step [Redshift-diagnostic-gm-completions-ela] of type [TableInput]
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-completions-ela.0 - distribution activated
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-completions-ela.0 - Starting allocation of buffers & new threads...
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-completions-ela.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-completions-ela.0 - output rel. is  1:1
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-completions-ela.0 - Found output rowset [Redshift-diagnostic-gm-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-completions-ela.0 - Finished dispatching
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-diagnostic-gm-completions-ela].0
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation is about to allocate step [Redshift-diagnostic-gm-completions-math] of type [TableInput]
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-completions-math.0 - distribution activated
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-completions-math.0 - Starting allocation of buffers & new threads...
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-completions-math.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-completions-math.0 - output rel. is  1:1
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-completions-math.0 - Found output rowset [Redshift-diagnostic-gm-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-completions-math.0 - Finished dispatching
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-diagnostic-gm-completions-math].0
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation is about to allocate step [Redshift-lesson-completions-ela] of type [TableInput]
+2016/05/03 15:20:00 - Redshift-lesson-completions-ela.0 - distribution activated
+2016/05/03 15:20:00 - Redshift-lesson-completions-ela.0 - Starting allocation of buffers & new threads...
+2016/05/03 15:20:00 - Redshift-lesson-completions-ela.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 15:20:00 - Redshift-lesson-completions-ela.0 - output rel. is  1:1
+2016/05/03 15:20:00 - Redshift-lesson-completions-ela.0 - Found output rowset [Redshift-lesson-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Redshift-lesson-completions-ela.0 - Finished dispatching
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-lesson-completions-ela].0
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation is about to allocate step [Redshift-lesson-completions-math] of type [TableInput]
+2016/05/03 15:20:00 - Redshift-lesson-completions-math.0 - distribution activated
+2016/05/03 15:20:00 - Redshift-lesson-completions-math.0 - Starting allocation of buffers & new threads...
+2016/05/03 15:20:00 - Redshift-lesson-completions-math.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 15:20:00 - Redshift-lesson-completions-math.0 - output rel. is  1:1
+2016/05/03 15:20:00 - Redshift-lesson-completions-math.0 - Found output rowset [Redshift-lesson-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Redshift-lesson-completions-math.0 - Finished dispatching
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-lesson-completions-math].0
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation is about to allocate step [Redshift-student-enrollments] of type [TableInput]
+2016/05/03 15:20:00 - Redshift-student-enrollments.0 - distribution activated
+2016/05/03 15:20:00 - Redshift-student-enrollments.0 - Starting allocation of buffers & new threads...
+2016/05/03 15:20:00 - Redshift-student-enrollments.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 15:20:00 - Redshift-student-enrollments.0 - output rel. is  1:1
+2016/05/03 15:20:00 - Redshift-student-enrollments.0 - Found output rowset [Redshift-student-enrollments.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Redshift-student-enrollments.0 - Finished dispatching
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-student-enrollments].0
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation is about to allocate step [Redshift-staff-enrollments] of type [TableInput]
+2016/05/03 15:20:00 - Redshift-staff-enrollments.0 - distribution activated
+2016/05/03 15:20:00 - Redshift-staff-enrollments.0 - Starting allocation of buffers & new threads...
+2016/05/03 15:20:00 - Redshift-staff-enrollments.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 15:20:00 - Redshift-staff-enrollments.0 - output rel. is  1:1
+2016/05/03 15:20:00 - Redshift-staff-enrollments.0 - Found output rowset [Redshift-staff-enrollments.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Redshift-staff-enrollments.0 - Finished dispatching
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-staff-enrollments].0
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation is about to allocate step [Redshift-ism-test-starts-ela] of type [TableInput]
+2016/05/03 15:20:00 - Redshift-ism-test-starts-ela.0 - distribution activated
+2016/05/03 15:20:00 - Redshift-ism-test-starts-ela.0 - Starting allocation of buffers & new threads...
+2016/05/03 15:20:00 - Redshift-ism-test-starts-ela.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 15:20:00 - Redshift-ism-test-starts-ela.0 - output rel. is  1:1
+2016/05/03 15:20:00 - Redshift-ism-test-starts-ela.0 - Found output rowset [Redshift-ism-test-starts-ela.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Redshift-ism-test-starts-ela.0 - Finished dispatching
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-ism-test-starts-ela].0
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation is about to allocate step [Redshift-ism-test-starts-math] of type [TableInput]
+2016/05/03 15:20:00 - Redshift-ism-test-starts-math.0 - distribution activated
+2016/05/03 15:20:00 - Redshift-ism-test-starts-math.0 - Starting allocation of buffers & new threads...
+2016/05/03 15:20:00 - Redshift-ism-test-starts-math.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 15:20:00 - Redshift-ism-test-starts-math.0 - output rel. is  1:1
+2016/05/03 15:20:00 - Redshift-ism-test-starts-math.0 - Found output rowset [Redshift-ism-test-starts-math.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Redshift-ism-test-starts-math.0 - Finished dispatching
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-ism-test-starts-math].0
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation is about to allocate step [Redshift-ism-test-completions-ela] of type [TableInput]
+2016/05/03 15:20:00 - Redshift-ism-test-completions-ela.0 - distribution activated
+2016/05/03 15:20:00 - Redshift-ism-test-completions-ela.0 - Starting allocation of buffers & new threads...
+2016/05/03 15:20:00 - Redshift-ism-test-completions-ela.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 15:20:00 - Redshift-ism-test-completions-ela.0 - output rel. is  1:1
+2016/05/03 15:20:00 - Redshift-ism-test-completions-ela.0 - Found output rowset [Redshift-ism-test-completions-ela.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Redshift-ism-test-completions-ela.0 - Finished dispatching
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-ism-test-completions-ela].0
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation is about to allocate step [Redshift-ism-test-completions-math] of type [TableInput]
+2016/05/03 15:20:00 - Redshift-ism-test-completions-math.0 - distribution activated
+2016/05/03 15:20:00 - Redshift-ism-test-completions-math.0 - Starting allocation of buffers & new threads...
+2016/05/03 15:20:00 - Redshift-ism-test-completions-math.0 - Step info: nrinput=0 nroutput=1
+2016/05/03 15:20:00 - Redshift-ism-test-completions-math.0 - output rel. is  1:1
+2016/05/03 15:20:00 - Redshift-ism-test-completions-math.0 - Found output rowset [Redshift-ism-test-completions-math.0 - Multiway Merge Join.0]
+2016/05/03 15:20:00 - Redshift-ism-test-completions-math.0 - Finished dispatching
+2016/05/03 15:20:00 - system-daily-kpi -  Transformation has allocated a new step: [Redshift-ism-test-completions-math].0
+2016/05/03 15:20:00 - system-daily-kpi - This transformation can be replayed with replay date: 2016/05/03 15:20:00
+2016/05/03 15:20:00 - system-daily-kpi - Initialising 20 steps...
+2016/05/03 15:20:00 - Redshift-diagnostic-test-starts-ela.0 - Released server socket on port 0
+2016/05/03 15:20:00 - Redshift-diagnostic-test-completions-ela.0 - Released server socket on port 0
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-completions-ela.0 - Released server socket on port 0
+2016/05/03 15:20:00 - Redshift-diagnostic-test-starts-math.0 - Released server socket on port 0
+2016/05/03 15:20:00 - Redshift-student-enrollments.0 - Released server socket on port 0
+2016/05/03 15:20:00 - Redshift-ism-test-starts-ela.0 - Released server socket on port 0
+2016/05/03 15:20:00 - Redshift-lesson-starts-math.0 - Released server socket on port 0
+2016/05/03 15:20:00 - Redshift-lesson-starts-ela.0 - Released server socket on port 0
+2016/05/03 15:20:00 - Insert / Update.0 - Released server socket on port 0
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-starts-ela.0 - Released server socket on port 0
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-starts-math.0 - Released server socket on port 0
+2016/05/03 15:20:00 - Multiway Merge Join.0 - Released server socket on port 0
+2016/05/03 15:20:00 - Redshift-ism-test-completions-math.0 - Released server socket on port 0
+2016/05/03 15:20:00 - Redshift-ism-test-completions-ela.0 - Released server socket on port 0
+2016/05/03 15:20:00 - Redshift-ism-test-starts-math.0 - Released server socket on port 0
+2016/05/03 15:20:00 - Redshift-staff-enrollments.0 - Released server socket on port 0
+2016/05/03 15:20:00 - Redshift-lesson-completions-math.0 - Released server socket on port 0
+2016/05/03 15:20:00 - Redshift-lesson-completions-ela.0 - Released server socket on port 0
+2016/05/03 15:20:00 - Redshift-diagnostic-gm-completions-math.0 - Released server socket on port 0
+2016/05/03 15:20:00 - Redshift-diagnostic-test-completions-math.0 - Released server socket on port 0
+2016/05/03 15:20:00 - Redshift - pikachu - New database connection defined
+2016/05/03 15:20:00 - Redshift - pikachu - New database connection defined
+2016/05/03 15:20:00 - Redshift - pikachu - New database connection defined
+2016/05/03 15:20:00 - Redshift - pikachu - New database connection defined
+2016/05/03 15:20:00 - Redshift - pikachu - New database connection defined
+2016/05/03 15:20:00 - Redshift - pikachu - New database connection defined
+2016/05/03 15:20:00 - Redshift - pikachu - New database connection defined
+2016/05/03 15:20:00 - Redshift - pikachu - New database connection defined
+2016/05/03 15:20:00 - Redshift - pikachu - New database connection defined
+2016/05/03 15:20:00 - Redshift - pikachu - New database connection defined
+2016/05/03 15:20:00 - Redshift - pikachu - New database connection defined
+2016/05/03 15:20:00 - Redshift - pikachu - New database connection defined
+2016/05/03 15:20:00 - Redshift - pikachu - New database connection defined
+2016/05/03 15:20:00 - Redshift - pikachu - New database connection defined
+2016/05/03 15:20:00 - Redshift - pikachu - New database connection defined
+2016/05/03 15:20:00 - Redshift - pikachu - New database connection defined
+2016/05/03 15:20:00 - Redshift - pikachu - New database connection defined
+2016/05/03 15:20:00 - MySQL - localhost - New database connection defined
+2016/05/03 15:20:00 - Redshift - pikachu - New database connection defined
+2016/05/03 15:20:01 - MySQL - localhost - Auto commit off
+2016/05/03 15:20:01 - Redshift - pikachu - Auto commit off
+2016/05/03 15:20:01 - Redshift-ism-test-starts-math.0 - Connected to database...
+2016/05/03 15:20:01 - Redshift - pikachu - Auto commit off
+2016/05/03 15:20:01 - Redshift-staff-enrollments.0 - Connected to database...
+2016/05/03 15:20:01 - Redshift - pikachu - Auto commit off
+2016/05/03 15:20:01 - Redshift-lesson-starts-ela.0 - Connected to database...
+2016/05/03 15:20:01 - Redshift - pikachu - Auto commit off
+2016/05/03 15:20:01 - Redshift-ism-test-completions-math.0 - Connected to database...
+2016/05/03 15:20:01 - Redshift - pikachu - Auto commit off
+2016/05/03 15:20:01 - Redshift-ism-test-completions-ela.0 - Connected to database...
+2016/05/03 15:20:01 - Redshift - pikachu - Auto commit off
+2016/05/03 15:20:01 - Redshift-diagnostic-gm-completions-math.0 - Connected to database...
+2016/05/03 15:20:01 - Redshift - pikachu - Auto commit off
+2016/05/03 15:20:01 - Redshift-diagnostic-test-completions-math.0 - Connected to database...
+2016/05/03 15:20:01 - Redshift - pikachu - Auto commit off
+2016/05/03 15:20:01 - Redshift-diagnostic-gm-completions-ela.0 - Connected to database...
+2016/05/03 15:20:01 - Redshift - pikachu - Auto commit off
+2016/05/03 15:20:01 - Redshift-diagnostic-test-starts-math.0 - Connected to database...
+2016/05/03 15:20:01 - Redshift - pikachu - Auto commit off
+2016/05/03 15:20:01 - Redshift-diagnostic-gm-starts-math.0 - Connected to database...
+2016/05/03 15:20:01 - Redshift - pikachu - Auto commit off
+2016/05/03 15:20:01 - Redshift-lesson-starts-math.0 - Connected to database...
+2016/05/03 15:20:01 - Redshift - pikachu - Auto commit off
+2016/05/03 15:20:01 - Redshift-lesson-completions-ela.0 - Connected to database...
+2016/05/03 15:20:01 - Redshift - pikachu - Auto commit off
+2016/05/03 15:20:01 - Redshift - pikachu - Auto commit off
+2016/05/03 15:20:01 - Redshift-diagnostic-gm-starts-ela.0 - Connected to database...
+2016/05/03 15:20:01 - Redshift-diagnostic-test-completions-ela.0 - Connected to database...
+2016/05/03 15:20:01 - Redshift - pikachu - Auto commit off
+2016/05/03 15:20:01 - Redshift-diagnostic-test-starts-ela.0 - Connected to database...
+2016/05/03 15:20:01 - Redshift - pikachu - Auto commit off
+2016/05/03 15:20:01 - Redshift-ism-test-starts-ela.0 - Connected to database...
+2016/05/03 15:20:01 - Redshift - pikachu - Auto commit off
+2016/05/03 15:20:01 - Redshift - pikachu - Auto commit off
+2016/05/03 15:20:01 - Redshift-lesson-completions-math.0 - Connected to database...
+2016/05/03 15:20:01 - Redshift-student-enrollments.0 - Connected to database...
+2016/05/03 15:20:01 - system-daily-kpi - Step [Redshift-diagnostic-test-starts-ela.0] initialized flawlessly.
+2016/05/03 15:20:01 - system-daily-kpi - Step [Multiway Merge Join.0] initialized flawlessly.
+2016/05/03 15:20:01 - system-daily-kpi - Step [Redshift-diagnostic-gm-starts-math.0] initialized flawlessly.
+2016/05/03 15:20:01 - system-daily-kpi - Step [Redshift-diagnostic-gm-starts-ela.0] initialized flawlessly.
+2016/05/03 15:20:01 - system-daily-kpi - Step [Insert / Update.0] initialized flawlessly.
+2016/05/03 15:20:01 - system-daily-kpi - Step [Redshift-lesson-starts-ela.0] initialized flawlessly.
+2016/05/03 15:20:01 - system-daily-kpi - Step [Redshift-lesson-starts-math.0] initialized flawlessly.
+2016/05/03 15:20:01 - system-daily-kpi - Step [Redshift-diagnostic-test-starts-math.0] initialized flawlessly.
+2016/05/03 15:20:01 - system-daily-kpi - Step [Redshift-diagnostic-test-completions-ela.0] initialized flawlessly.
+2016/05/03 15:20:01 - system-daily-kpi - Step [Redshift-diagnostic-test-completions-math.0] initialized flawlessly.
+2016/05/03 15:20:01 - system-daily-kpi - Step [Redshift-diagnostic-gm-completions-ela.0] initialized flawlessly.
+2016/05/03 15:20:01 - system-daily-kpi - Step [Redshift-diagnostic-gm-completions-math.0] initialized flawlessly.
+2016/05/03 15:20:01 - system-daily-kpi - Step [Redshift-lesson-completions-ela.0] initialized flawlessly.
+2016/05/03 15:20:01 - system-daily-kpi - Step [Redshift-lesson-completions-math.0] initialized flawlessly.
+2016/05/03 15:20:01 - system-daily-kpi - Step [Redshift-student-enrollments.0] initialized flawlessly.
+2016/05/03 15:20:01 - system-daily-kpi - Step [Redshift-staff-enrollments.0] initialized flawlessly.
+2016/05/03 15:20:01 - system-daily-kpi - Step [Redshift-ism-test-starts-ela.0] initialized flawlessly.
+2016/05/03 15:20:01 - system-daily-kpi - Step [Redshift-ism-test-starts-math.0] initialized flawlessly.
+2016/05/03 15:20:01 - system-daily-kpi - Step [Redshift-ism-test-completions-ela.0] initialized flawlessly.
+2016/05/03 15:20:01 - system-daily-kpi - Step [Redshift-ism-test-completions-math.0] initialized flawlessly.
+2016/05/03 15:20:13 - Redshift-diagnostic-test-starts-ela.0 - Starting to run...
+2016/05/03 15:20:13 - Redshift-diagnostic-test-starts-ela.0 - SQL query : select DATEADD (day, -34, CURRENT_DATE) as run_date,  count(distinct student_id) as diagnostic_test_starts_ela
+2016/05/03 15:20:13 - Redshift-diagnostic-test-starts-ela.0 - from pikachu_skynet.fact_student_assessment_ela
+2016/05/03 15:20:13 - Redshift-diagnostic-test-starts-ela.0 - where date_trunc('day', last_start_time) = date_trunc('day', DATEADD (day, -34, CURRENT_DATE))
+2016/05/03 15:20:13 - Redshift-diagnostic-test-starts-ela.0 - and assessment_type = 'DIAGNOSTIC';
+2016/05/03 15:20:13 - Redshift-diagnostic-gm-starts-math.0 - Starting to run...
+2016/05/03 15:20:13 - Redshift-diagnostic-gm-starts-math.0 - SQL query : select DATEADD (day, -34, CURRENT_DATE) as run_date,  count(distinct student_id) as gm_test_starts_math
+2016/05/03 15:20:13 - Redshift-diagnostic-gm-starts-math.0 - from pikachu_skynet.fact_student_assessment_math
+2016/05/03 15:20:13 - Redshift-diagnostic-gm-starts-math.0 - where date_trunc('day', last_start_time) = date_trunc('day', DATEADD (day, -34, CURRENT_DATE))
+2016/05/03 15:20:13 - Redshift-diagnostic-gm-starts-math.0 - and assessment_type = 'PROGRESS_MONITORING';
+2016/05/03 15:20:13 - Multiway Merge Join.0 - Starting to run...
+2016/05/03 15:20:13 - Redshift-diagnostic-gm-starts-ela.0 - Starting to run...
+2016/05/03 15:20:13 - Redshift-diagnostic-gm-starts-ela.0 - SQL query : select DATEADD (day, -34, CURRENT_DATE) as run_date,  count(distinct student_id) as gm_test_starts_ela
+2016/05/03 15:20:13 - Redshift-diagnostic-gm-starts-ela.0 - from pikachu_skynet.fact_student_assessment_ela
+2016/05/03 15:20:13 - Redshift-diagnostic-gm-starts-ela.0 - where date_trunc('day', last_start_time) = date_trunc('day', DATEADD (day, -34, CURRENT_DATE))
+2016/05/03 15:20:13 - Redshift-diagnostic-gm-starts-ela.0 - and assessment_type = 'PROGRESS_MONITORING';
+2016/05/03 15:20:13 - Insert / Update.0 - Starting to run...
+2016/05/03 15:20:13 - Redshift-lesson-starts-ela.0 - Starting to run...
+2016/05/03 15:20:13 - Redshift-lesson-starts-ela.0 - SQL query : select DATEADD (day, -34, CURRENT_DATE) as run_date,  count(distinct student_id) as lesson_starts_ela
+2016/05/03 15:20:13 - Redshift-lesson-starts-ela.0 - from pikachu_skynet.fact_student_instruction
+2016/05/03 15:20:13 - Redshift-lesson-starts-ela.0 - where date_trunc('day', last_start_time) = date_trunc('day', DATEADD (day, -34, CURRENT_DATE))
+2016/05/03 15:20:13 - Redshift-lesson-starts-ela.0 - and subject = 'ela';
+2016/05/03 15:20:13 - Redshift-lesson-starts-math.0 - Starting to run...
+2016/05/03 15:20:13 - Redshift-lesson-starts-math.0 - SQL query : select DATEADD (day, -34, CURRENT_DATE) as run_date,  count(distinct student_id) as lesson_start_math
+2016/05/03 15:20:13 - Redshift-lesson-starts-math.0 - from pikachu_skynet.fact_student_instruction
+2016/05/03 15:20:13 - Redshift-lesson-starts-math.0 - where date_trunc('day', last_start_time) = date_trunc('day', DATEADD (day, -34, CURRENT_DATE))
+2016/05/03 15:20:13 - Redshift-lesson-starts-math.0 - and subject = 'math';
+2016/05/03 15:20:13 - Redshift-diagnostic-test-starts-math.0 - Starting to run...
+2016/05/03 15:20:13 - Redshift-diagnostic-test-starts-math.0 - SQL query : select DATEADD (day, -34, CURRENT_DATE) as run_date,  count(distinct student_id) as diagnostic_test_starts_math
+2016/05/03 15:20:13 - Redshift-diagnostic-test-starts-math.0 - from pikachu_skynet.fact_student_assessment_math
+2016/05/03 15:20:13 - Redshift-diagnostic-test-starts-math.0 - where date_trunc('day', last_start_time) = date_trunc('day', DATEADD (day, -34, CURRENT_DATE))
+2016/05/03 15:20:13 - Redshift-diagnostic-test-starts-math.0 - and assessment_type = 'DIAGNOSTIC';
+2016/05/03 15:20:13 - Redshift-diagnostic-gm-completions-ela.0 - Starting to run...
+2016/05/03 15:20:13 - Redshift-diagnostic-gm-completions-ela.0 - SQL query : select DATEADD (day, -34, CURRENT_DATE) as run_date,  count(distinct student_id) as gm_test_completions_ela
+2016/05/03 15:20:13 - Redshift-diagnostic-gm-completions-ela.0 - from pikachu_skynet.fact_student_assessment_ela
+2016/05/03 15:20:13 - Redshift-diagnostic-gm-completions-ela.0 - where date_trunc('day', completion_time) = date_trunc('day', DATEADD (day, -34, CURRENT_DATE))
+2016/05/03 15:20:13 - Redshift-diagnostic-gm-completions-ela.0 - and assessment_type = 'PROGRESS_MONITORING';
+2016/05/03 15:20:13 - Redshift-diagnostic-test-completions-math.0 - Starting to run...
+2016/05/03 15:20:13 - Redshift-diagnostic-test-completions-math.0 - SQL query : select DATEADD (day, -34, CURRENT_DATE) as run_date,  count(distinct student_id) as diagnostic_test_completions_math
+2016/05/03 15:20:13 - Redshift-diagnostic-test-completions-math.0 - from pikachu_skynet.fact_student_assessment_math
+2016/05/03 15:20:13 - Redshift-diagnostic-test-completions-math.0 - where date_trunc('day', completion_time) = date_trunc('day', DATEADD (day, -34, CURRENT_DATE))
+2016/05/03 15:20:13 - Redshift-diagnostic-test-completions-math.0 - and assessment_type = 'DIAGNOSTIC';
+2016/05/03 15:20:13 - Redshift-diagnostic-gm-completions-math.0 - Starting to run...
+2016/05/03 15:20:13 - Redshift-diagnostic-gm-completions-math.0 - SQL query : select DATEADD (day, -34, CURRENT_DATE) as run_date,  count(distinct student_id) as gm_test_completions_math
+2016/05/03 15:20:13 - Redshift-diagnostic-gm-completions-math.0 - from pikachu_skynet.fact_student_assessment_math
+2016/05/03 15:20:13 - Redshift-diagnostic-gm-completions-math.0 - where date_trunc('day', completion_time) = date_trunc('day', DATEADD (day, -34, CURRENT_DATE))
+2016/05/03 15:20:13 - Redshift-diagnostic-gm-completions-math.0 - and assessment_type = 'PROGRESS_MONITORING';
+2016/05/03 15:20:13 - Redshift-diagnostic-test-completions-ela.0 - Starting to run...
+2016/05/03 15:20:13 - Redshift-lesson-completions-ela.0 - Starting to run...
+2016/05/03 15:20:13 - Redshift-lesson-completions-ela.0 - SQL query : select DATEADD (day, -34, CURRENT_DATE) as run_date,  count(distinct student_id) as lesson_completions_ela
+2016/05/03 15:20:13 - Redshift-lesson-completions-ela.0 - from pikachu_skynet.fact_student_instruction
+2016/05/03 15:20:13 - Redshift-lesson-completions-ela.0 - where date_trunc('day', completion_time) = date_trunc('day', DATEADD (day, -34, CURRENT_DATE))
+2016/05/03 15:20:13 - Redshift-lesson-completions-ela.0 - and subject = 'ela';
+2016/05/03 15:20:13 - Redshift-diagnostic-test-completions-ela.0 - SQL query : select DATEADD (day, -34, CURRENT_DATE) as run_date,  count(distinct student_id) as diagnostic_test_completions_ela
+2016/05/03 15:20:13 - Redshift-diagnostic-test-completions-ela.0 - from pikachu_skynet.fact_student_assessment_ela
+2016/05/03 15:20:13 - Redshift-diagnostic-test-completions-ela.0 - where date_trunc('day', completion_time) = date_trunc('day', DATEADD (day, -34, CURRENT_DATE))
+2016/05/03 15:20:13 - Redshift-diagnostic-test-completions-ela.0 - and assessment_type = 'DIAGNOSTIC';
+2016/05/03 15:20:13 - Redshift-student-enrollments.0 - Starting to run...
+2016/05/03 15:20:13 - Redshift-student-enrollments.0 - SQL query : select DATEADD (day, -34, CURRENT_DATE) as run_date, count(distinct(s.id)) as totalStudentsEnrolled
+2016/05/03 15:20:13 - Redshift-student-enrollments.0 - from pikachu_skynet.dim_student s
+2016/05/03 15:20:13 - Redshift-student-enrollments.0 - inner join pikachu_skynet.dim_account a on a.id = s.account_id and a.current_academic_year = s.academic_year
+2016/05/03 15:20:13 - Redshift-student-enrollments.0 - inner join pikachu_skynet.fact_student_enrollment enr on enr.student_academic_year_id = s.id and enr.current_flag = true
+2016/05/03 15:20:13 - Redshift-student-enrollments.0 - inner join pikachu_skynet.dim_student_group sg on enr.institution_id = sg.id and sg.academic_year = a.current_academic_year and sg.student_group_type = 'CLASS'
+2016/05/03 15:20:13 - Redshift-student-enrollments.0 - where a.account_type not in (8,9,10,11);
+2016/05/03 15:20:13 - Redshift-lesson-completions-math.0 - Starting to run...
+2016/05/03 15:20:13 - Redshift-lesson-completions-math.0 - SQL query : select DATEADD (day, -34, CURRENT_DATE) as run_date,  count(distinct student_id) as lesson_completions_math
+2016/05/03 15:20:13 - Redshift-lesson-completions-math.0 - from pikachu_skynet.fact_student_instruction
+2016/05/03 15:20:13 - Redshift-lesson-completions-math.0 - where date_trunc('day', completion_time) = date_trunc('day', DATEADD (day, -34, CURRENT_DATE))
+2016/05/03 15:20:13 - Redshift-lesson-completions-math.0 - and subject = 'math';
+2016/05/03 15:20:13 - Redshift-staff-enrollments.0 - Starting to run...
+2016/05/03 15:20:13 - Redshift-staff-enrollments.0 - SQL query : select DATEADD (day, -34, CURRENT_DATE) as run_date, count(distinct(s.id)) as totalStaffEnrolled
+2016/05/03 15:20:13 - Redshift-staff-enrollments.0 - from pikachu_skynet.dim_staff_member s
+2016/05/03 15:20:13 - Redshift-staff-enrollments.0 - inner join pikachu_skynet.dim_account a on a.id = s.account_id
+2016/05/03 15:20:13 - Redshift-staff-enrollments.0 - inner join pikachu_skynet.fact_staff_member_enrollment enr on enr.staff_member_id = s.id and enr.academic_year = a.current_academic_year and enr.current_flag = true
+2016/05/03 15:20:13 - Redshift-staff-enrollments.0 - inner join pikachu_skynet.dim_student_group sg on enr.institution_id = sg.id and sg.academic_year = a.current_academic_year and sg.student_group_type = 'CLASS'
+2016/05/03 15:20:13 - Redshift-staff-enrollments.0 - where a.account_type not in (8,9,10,11);
+2016/05/03 15:20:13 - Redshift-ism-test-starts-ela.0 - Starting to run...
+2016/05/03 15:20:13 - Redshift-ism-test-starts-ela.0 - SQL query : select DATEADD (day, -34, CURRENT_DATE) as run_date,  count(distinct assignment_id) as ism_test_starts_ela
+2016/05/03 15:20:13 - Redshift-ism-test-starts-ela.0 - from pikachu_skynet.fact_student_sba_assessment
+2016/05/03 15:20:13 - Redshift-ism-test-starts-ela.0 - where last_start_date_id = DATEADD (day, -34, CURRENT_DATE)
+2016/05/03 15:20:13 - Redshift-ism-test-starts-ela.0 - and subject = 'ela';
+2016/05/03 15:20:13 - Redshift-ism-test-starts-math.0 - Starting to run...
+2016/05/03 15:20:13 - Redshift-ism-test-starts-math.0 - SQL query : select DATEADD (day, -34, CURRENT_DATE) as run_date,  count(distinct assignment_id) as ism_test_starts_math
+2016/05/03 15:20:13 - Redshift-ism-test-starts-math.0 - from pikachu_skynet.fact_student_sba_assessment
+2016/05/03 15:20:13 - Redshift-ism-test-starts-math.0 - where last_start_date_id = DATEADD (day, -34, CURRENT_DATE)
+2016/05/03 15:20:13 - Redshift-ism-test-starts-math.0 - and subject = 'math';
+2016/05/03 15:20:13 - Redshift-ism-test-completions-ela.0 - Starting to run...
+2016/05/03 15:20:13 - Redshift-ism-test-completions-ela.0 - SQL query : select DATEADD (day, -34, CURRENT_DATE) as run_date,  count(distinct assignment_id) as ism_test_completions_ela
+2016/05/03 15:20:13 - Redshift-ism-test-completions-ela.0 - from pikachu_skynet.fact_student_sba_assessment
+2016/05/03 15:20:13 - Redshift-ism-test-completions-ela.0 - where completion_date_id = DATEADD (day, -34, CURRENT_DATE)
+2016/05/03 15:20:13 - Redshift-ism-test-completions-ela.0 - and score_type = 'OVERALL'
+2016/05/03 15:20:13 - Redshift-ism-test-completions-ela.0 - and   status = 'COMPLETED'
+2016/05/03 15:20:13 - Redshift-ism-test-completions-ela.0 - and subject = 'ela';
+2016/05/03 15:20:13 - Redshift-ism-test-completions-math.0 - Starting to run...
+2016/05/03 15:20:13 - Redshift-ism-test-completions-math.0 - SQL query : select DATEADD (day, -34, CURRENT_DATE) as run_date,  count(distinct assignment_id) as ism_test_completions_math
+2016/05/03 15:20:13 - Redshift-ism-test-completions-math.0 - from pikachu_skynet.fact_student_sba_assessment
+2016/05/03 15:20:13 - Redshift-ism-test-completions-math.0 - where completion_date_id = DATEADD (day, -34, CURRENT_DATE)
+2016/05/03 15:20:13 - Redshift-ism-test-completions-math.0 - and score_type = 'OVERALL'
+2016/05/03 15:20:13 - Redshift-ism-test-completions-math.0 - and   status = 'COMPLETED'
+2016/05/03 15:20:13 - Redshift-ism-test-completions-math.0 - and subject = 'math';
+2016/05/03 15:20:13 - system-daily-kpi - Transformation has allocated 20 threads and 19 rowsets.
+2016/05/03 15:20:14 - Redshift-ism-test-starts-math.0 - Finished reading query, closing connection.
+2016/05/03 15:20:14 - Redshift - pikachu - Connection to database closed!
+2016/05/03 15:20:14 - Redshift-ism-test-starts-math.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2016/05/03 15:20:15 - Redshift-ism-test-completions-math.0 - Finished reading query, closing connection.
+2016/05/03 15:20:15 - Redshift - pikachu - Connection to database closed!
+2016/05/03 15:20:15 - Redshift-ism-test-completions-math.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2016/05/03 15:20:58 - Redshift-lesson-starts-ela.0 - Finished reading query, closing connection.
+2016/05/03 15:20:58 - Redshift - pikachu - Connection to database closed!
+2016/05/03 15:20:58 - Redshift-lesson-starts-ela.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2016/05/03 15:20:58 - Redshift-lesson-completions-ela.0 - Finished reading query, closing connection.
+2016/05/03 15:20:58 - Redshift - pikachu - Connection to database closed!
+2016/05/03 15:20:58 - Redshift-lesson-completions-ela.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2016/05/03 15:20:58 - Redshift-lesson-starts-math.0 - Finished reading query, closing connection.
+2016/05/03 15:20:58 - Redshift - pikachu - Connection to database closed!
+2016/05/03 15:20:58 - Redshift-lesson-starts-math.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2016/05/03 15:20:59 - Redshift-lesson-completions-math.0 - Finished reading query, closing connection.
+2016/05/03 15:20:59 - Redshift - pikachu - Connection to database closed!
+2016/05/03 15:20:59 - Redshift-lesson-completions-math.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2016/05/03 15:20:59 - Redshift-ism-test-completions-ela.0 - Finished reading query, closing connection.
+2016/05/03 15:20:59 - Redshift - pikachu - Connection to database closed!
+2016/05/03 15:20:59 - Redshift-ism-test-completions-ela.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2016/05/03 15:21:00 - Redshift-ism-test-starts-ela.0 - Finished reading query, closing connection.
+2016/05/03 15:21:00 - Redshift - pikachu - Connection to database closed!
+2016/05/03 15:21:00 - Redshift-ism-test-starts-ela.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2016/05/03 15:21:07 - Redshift-diagnostic-test-completions-ela.0 - Finished reading query, closing connection.
+2016/05/03 15:21:07 - Redshift - pikachu - Connection to database closed!
+2016/05/03 15:21:07 - Redshift-diagnostic-test-completions-ela.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2016/05/03 15:21:07 - Redshift-diagnostic-gm-starts-math.0 - Finished reading query, closing connection.
+2016/05/03 15:21:07 - Redshift - pikachu - Connection to database closed!
+2016/05/03 15:21:07 - Redshift-diagnostic-gm-starts-math.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2016/05/03 15:21:08 - Redshift-diagnostic-gm-starts-ela.0 - Finished reading query, closing connection.
+2016/05/03 15:21:08 - Redshift - pikachu - Connection to database closed!
+2016/05/03 15:21:08 - Redshift-diagnostic-gm-starts-ela.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2016/05/03 15:21:09 - Redshift-diagnostic-test-starts-math.0 - Finished reading query, closing connection.
+2016/05/03 15:21:09 - Redshift - pikachu - Connection to database closed!
+2016/05/03 15:21:09 - Redshift-diagnostic-test-starts-math.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2016/05/03 15:21:16 - Redshift-diagnostic-gm-completions-ela.0 - Finished reading query, closing connection.
+2016/05/03 15:21:16 - Redshift - pikachu - Connection to database closed!
+2016/05/03 15:21:16 - Redshift-diagnostic-gm-completions-ela.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2016/05/03 15:21:16 - Redshift-diagnostic-test-starts-ela.0 - Finished reading query, closing connection.
+2016/05/03 15:21:17 - Redshift - pikachu - Connection to database closed!
+2016/05/03 15:21:17 - Redshift-diagnostic-test-starts-ela.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2016/05/03 15:21:17 - Redshift-diagnostic-test-completions-math.0 - Finished reading query, closing connection.
+2016/05/03 15:21:18 - Redshift - pikachu - Connection to database closed!
+2016/05/03 15:21:18 - Redshift-diagnostic-test-completions-math.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2016/05/03 15:21:18 - Redshift-diagnostic-gm-completions-math.0 - Finished reading query, closing connection.
+2016/05/03 15:21:18 - Redshift - pikachu - Connection to database closed!
+2016/05/03 15:21:18 - Redshift-diagnostic-gm-completions-math.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2016/05/03 15:22:01 - Redshift-staff-enrollments.0 - Finished reading query, closing connection.
+2016/05/03 15:22:01 - Redshift - pikachu - Connection to database closed!
+2016/05/03 15:22:01 - Redshift-staff-enrollments.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2016/05/03 15:22:15 - Redshift-student-enrollments.0 - Finished reading query, closing connection.
+2016/05/03 15:22:15 - Redshift - pikachu - Connection to database closed!
+2016/05/03 15:22:15 - Redshift-student-enrollments.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2016/05/03 15:22:18 - Insert / Update.0 - Setting preparedStatement to [SELECT run_date, diagnostic_test_starts_ela, diagnostic_test_starts_math, gm_test_starts_math, gm_test_starts_ela, lesson_starts_ela, lesson_starts_math, staff_enrollments, student_enrollments, ism_test_starts_ela, ism_test_starts_math, ism_test_completions_ela, ism_test_completions_math, diagnostic_test_completions_ela, diagnostic_test_completions_math, gm_test_completions_ela, gm_test_completions_math, lesson_completions_ela, lesson_completions_math FROM fact_system_daily_metrics WHERE  ( ( run_date = ?  ) ) ]
+2016/05/03 15:22:18 - MySQL - localhost - Preparing statement: 
+2016/05/03 15:22:18 - MySQL - localhost - INSERT INTO fact_system_daily_metrics (run_date, diagnostic_test_starts_ela, diagnostic_test_starts_math, gm_test_starts_math, gm_test_starts_ela, lesson_starts_ela, lesson_starts_math, staff_enrollments, student_enrollments, ism_test_starts_ela, ism_test_starts_math, ism_test_completions_ela, ism_test_completions_math, diagnostic_test_completions_ela, diagnostic_test_completions_math, gm_test_completions_ela, gm_test_completions_math, lesson_completions_ela, lesson_completions_math) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2016/05/03 15:22:18 - Insert / Update.0 - Setting update preparedStatement to [UPDATE fact_system_daily_metrics
+2016/05/03 15:22:18 - Insert / Update.0 - SET run_date = ?
+2016/05/03 15:22:18 - Insert / Update.0 - ,   diagnostic_test_starts_ela = ?
+2016/05/03 15:22:18 - Insert / Update.0 - ,   diagnostic_test_starts_math = ?
+2016/05/03 15:22:18 - Insert / Update.0 - ,   gm_test_starts_math = ?
+2016/05/03 15:22:18 - Insert / Update.0 - ,   gm_test_starts_ela = ?
+2016/05/03 15:22:18 - Insert / Update.0 - ,   lesson_starts_ela = ?
+2016/05/03 15:22:18 - Insert / Update.0 - ,   lesson_starts_math = ?
+2016/05/03 15:22:18 - Insert / Update.0 - ,   staff_enrollments = ?
+2016/05/03 15:22:18 - Insert / Update.0 - ,   student_enrollments = ?
+2016/05/03 15:22:18 - Insert / Update.0 - ,   ism_test_starts_ela = ?
+2016/05/03 15:22:18 - Insert / Update.0 - ,   ism_test_starts_math = ?
+2016/05/03 15:22:18 - Insert / Update.0 - ,   ism_test_completions_ela = ?
+2016/05/03 15:22:18 - Insert / Update.0 - ,   ism_test_completions_math = ?
+2016/05/03 15:22:18 - Insert / Update.0 - ,   diagnostic_test_completions_ela = ?
+2016/05/03 15:22:18 - Insert / Update.0 - ,   diagnostic_test_completions_math = ?
+2016/05/03 15:22:18 - Insert / Update.0 - ,   gm_test_completions_ela = ?
+2016/05/03 15:22:18 - Insert / Update.0 - ,   gm_test_completions_math = ?
+2016/05/03 15:22:18 - Insert / Update.0 - ,   lesson_completions_ela = ?
+2016/05/03 15:22:18 - Insert / Update.0 - ,   lesson_completions_math = ?
+2016/05/03 15:22:18 - Insert / Update.0 - WHERE  ( ( run_date = ?  ) ) ]
+2016/05/03 15:22:21 - Multiway Merge Join.0 - Finished processing (I=0, O=0, R=18, W=1, U=0, E=0)
+2016/05/03 15:22:21 - MySQL - localhost - Connection to database closed!
+2016/05/03 15:22:21 - Insert / Update.0 - Finished processing (I=1, O=1, R=1, W=1, U=0, E=0)
+2016/05/03 15:22:21 - Pan - Finished!
+2016/05/03 15:22:21 - Pan - Start=2016/05/03 15:19:59.997, Stop=2016/05/03 15:22:21.151
+2016/05/03 15:22:21 - Pan - Processing ended after 2 minutes and 21 seconds (141 seconds total).
+2016/05/03 15:22:21 - system-daily-kpi -  
+2016/05/03 15:22:21 - system-daily-kpi - Step Redshift-diagnostic-test-starts-ela.0 ended successfully, processed 1 lines. ( 0 lines/s)
+2016/05/03 15:22:21 - system-daily-kpi - Step Multiway Merge Join.0 ended successfully, processed 18 lines. ( 0 lines/s)
+2016/05/03 15:22:21 - system-daily-kpi - Step Redshift-diagnostic-gm-starts-math.0 ended successfully, processed 1 lines. ( 0 lines/s)
+2016/05/03 15:22:21 - system-daily-kpi - Step Redshift-diagnostic-gm-starts-ela.0 ended successfully, processed 1 lines. ( 0 lines/s)
+2016/05/03 15:22:21 - system-daily-kpi - Step Insert / Update.0 ended successfully, processed 1 lines. ( 0 lines/s)
+2016/05/03 15:22:21 - system-daily-kpi - Step Redshift-lesson-starts-ela.0 ended successfully, processed 1 lines. ( 0 lines/s)
+2016/05/03 15:22:21 - system-daily-kpi - Step Redshift-lesson-starts-math.0 ended successfully, processed 1 lines. ( 0 lines/s)
+2016/05/03 15:22:21 - system-daily-kpi - Step Redshift-diagnostic-test-starts-math.0 ended successfully, processed 1 lines. ( 0 lines/s)
+2016/05/03 15:22:21 - system-daily-kpi - Step Redshift-diagnostic-test-completions-ela.0 ended successfully, processed 1 lines. ( 0 lines/s)
+2016/05/03 15:22:21 - system-daily-kpi - Step Redshift-diagnostic-test-completions-math.0 ended successfully, processed 1 lines. ( 0 lines/s)
+2016/05/03 15:22:21 - system-daily-kpi - Step Redshift-diagnostic-gm-completions-ela.0 ended successfully, processed 1 lines. ( 0 lines/s)
+2016/05/03 15:22:21 - system-daily-kpi - Step Redshift-diagnostic-gm-completions-math.0 ended successfully, processed 1 lines. ( 0 lines/s)
+2016/05/03 15:22:21 - system-daily-kpi - Step Redshift-lesson-completions-ela.0 ended successfully, processed 1 lines. ( 0 lines/s)
+2016/05/03 15:22:21 - system-daily-kpi - Step Redshift-lesson-completions-math.0 ended successfully, processed 1 lines. ( 0 lines/s)
+2016/05/03 15:22:21 - system-daily-kpi - Step Redshift-student-enrollments.0 ended successfully, processed 1 lines. ( 0 lines/s)
+2016/05/03 15:22:21 - system-daily-kpi - Step Redshift-staff-enrollments.0 ended successfully, processed 1 lines. ( 0 lines/s)
+2016/05/03 15:22:21 - system-daily-kpi - Step Redshift-ism-test-starts-ela.0 ended successfully, processed 1 lines. ( 0 lines/s)
+2016/05/03 15:22:21 - system-daily-kpi - Step Redshift-ism-test-starts-math.0 ended successfully, processed 1 lines. ( 0 lines/s)
+2016/05/03 15:22:21 - system-daily-kpi - Step Redshift-ism-test-completions-ela.0 ended successfully, processed 1 lines. ( 0 lines/s)
+2016/05/03 15:22:21 - system-daily-kpi - Step Redshift-ism-test-completions-math.0 ended successfully, processed 1 lines. ( 0 lines/s)
